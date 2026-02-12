@@ -1,0 +1,1073 @@
+{
+  "user_id": "anonymous",
+  "task_name": "merge-error-identification",
+  "session_id": "29e820ea8eb1",
+  "start_time": "2026-01-22T14:36:17.857223",
+  "end_time": "2026-01-22T14:44:06.211791",
+  "num_samples": 31,
+  "num_correct": 23,
+  "accuracy": 0.7419354838709677,
+  "responses": [
+    {
+      "sample_idx": 1,
+      "parquet_idx": 2038,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 66.672525,
+      "timestamp": "2026-01-22T14:37:27.462207",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/2038_0_14470467992441634975_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/2038_1_14470467992441634975_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/2038_2_14470467992441634975_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          695200.0,
+          372832.0,
+          902360.0
+        ],
+        "junction_hash": "14470467992441634975",
+        "latest_root_id": "864691135511316745",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135374135881",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135374135881/14470467992441634975.json",
+        "root_id": "864691135374135881"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 2,
+      "parquet_idx": 458,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 10.285521,
+      "timestamp": "2026-01-22T14:37:37.751653",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/458_0_12144860173559147331_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/458_1_12144860173559147331_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/458_2_12144860173559147331_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          754968.0,
+          662064.0,
+          895720.0
+        ],
+        "junction_hash": "12144860173559147331",
+        "latest_root_id": "864691136034102203",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135104360269",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135104360269/12144860173559147331.json",
+        "root_id": "864691135104360269"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 3,
+      "parquet_idx": 5078,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": true,
+      "ground_truth": false,
+      "correct": false,
+      "response_time_seconds": 23.439302,
+      "timestamp": "2026-01-22T14:38:01.193363",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/5078_0_1516749221529675234_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/5078_1_1516749221529675234_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/5078_2_1516749221529675234_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          796216.0,
+          721696.0,
+          701680.0
+        ],
+        "junction_hash": "1516749221529675234",
+        "latest_root_id": "864691135465001373",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135584404333",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135584404333/1516749221529675234.json",
+        "root_id": "864691135584404333"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 4,
+      "parquet_idx": 4523,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 15.732877,
+      "timestamp": "2026-01-22T14:38:16.929171",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/4523_0_17616178202064101637_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/4523_1_17616178202064101637_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/4523_2_17616178202064101637_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "merge",
+        "interface_point": [
+          742316.0,
+          916652.0,
+          864160.0
+        ],
+        "junction_hash": "17616178202064101637",
+        "latest_root_id": "864691135694203071",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135566222423",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135566222423/17616178202064101637.json",
+        "root_id": "864691135566222423"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 5,
+      "parquet_idx": 4127,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": true,
+      "ground_truth": false,
+      "correct": false,
+      "response_time_seconds": 23.263283,
+      "timestamp": "2026-01-22T14:38:40.197573",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/4127_0_15535715234796666730_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/4127_1_15535715234796666730_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/4127_2_15535715234796666730_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          1185256.0,
+          607864.0,
+          778120.0
+        ],
+        "junction_hash": "15535715234796666730",
+        "latest_root_id": "864691135778414176",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135516805331",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135516805331/15535715234796666730.json",
+        "root_id": "864691135516805331"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 6,
+      "parquet_idx": 2574,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": true,
+      "ground_truth": false,
+      "correct": false,
+      "response_time_seconds": 7.379224,
+      "timestamp": "2026-01-22T14:38:47.578963",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/2574_0_8846509784277507402_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/2574_1_8846509784277507402_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/2574_2_8846509784277507402_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          801368.0,
+          972912.0,
+          968080.0
+        ],
+        "junction_hash": "8846509784277507402",
+        "latest_root_id": "864691135885298544",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135408935369",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135408935369/8846509784277507402.json",
+        "root_id": "864691135408935369"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 7,
+      "parquet_idx": 1879,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 12.08508,
+      "timestamp": "2026-01-22T14:38:59.666163",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/1879_0_13650582436901726536_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/1879_1_13650582436901726536_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/1879_2_13650582436901726536_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "merge",
+        "interface_point": [
+          649540.0,
+          448992.0,
+          974260.0
+        ],
+        "junction_hash": "13650582436901726536",
+        "latest_root_id": "864691135778138029",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135360895320",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135360895320/13650582436901726536.json",
+        "root_id": "864691135360895320"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 8,
+      "parquet_idx": 12505,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 5.302978,
+      "timestamp": "2026-01-22T14:39:04.972260",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/12505_0_273337376783299872_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/12505_1_273337376783299872_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/12505_2_273337376783299872_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "merge",
+        "interface_point": [
+          857132.0,
+          919752.0,
+          865800.0
+        ],
+        "junction_hash": "273337376783299872",
+        "latest_root_id": "864691136424690735",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691136603296977",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691136603296977/273337376783299872.json",
+        "root_id": "864691136603296977"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 9,
+      "parquet_idx": 10080,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 7.56913,
+      "timestamp": "2026-01-22T14:39:12.545617",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/10080_0_14084198460557930402_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/10080_1_14084198460557930402_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/10080_2_14084198460557930402_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          716320.0,
+          482968.0,
+          918320.0
+        ],
+        "junction_hash": "14084198460557930402",
+        "latest_root_id": "864691135470556242",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691136056626392",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691136056626392/14084198460557930402.json",
+        "root_id": "864691136056626392"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 10,
+      "parquet_idx": 1589,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 6.533392,
+      "timestamp": "2026-01-22T14:39:19.086117",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/1589_0_10111561457532655205_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/1589_1_10111561457532655205_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/1589_2_10111561457532655205_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "merge",
+        "interface_point": [
+          710512.0,
+          875148.0,
+          821820.0
+        ],
+        "junction_hash": "10111561457532655205",
+        "latest_root_id": "864691135947873377",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135345399967",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135345399967/10111561457532655205.json",
+        "root_id": "864691135345399967"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 11,
+      "parquet_idx": 10926,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 8.638163,
+      "timestamp": "2026-01-22T14:39:27.728124",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/10926_0_13517875145885608058_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/10926_1_13517875145885608058_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/10926_2_13517875145885608058_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          713480.0,
+          911800.0,
+          932040.0
+        ],
+        "junction_hash": "13517875145885608058",
+        "latest_root_id": "864691136579358228",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691136195724264",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691136195724264/13517875145885608058.json",
+        "root_id": "864691136195724264"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 12,
+      "parquet_idx": 7791,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 13.183483,
+      "timestamp": "2026-01-22T14:39:40.914927",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/7791_0_10445849255408114893_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/7791_1_10445849255408114893_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/7791_2_10445849255408114893_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "merge",
+        "interface_point": [
+          749436.0,
+          1034008.0,
+          1004580.0
+        ],
+        "junction_hash": "10445849255408114893",
+        "latest_root_id": "864691135750196777",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135801365602",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135801365602/10445849255408114893.json",
+        "root_id": "864691135801365602"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 13,
+      "parquet_idx": 578,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 5.399714,
+      "timestamp": "2026-01-22T14:39:46.317090",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/578_0_2212122746941587821_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/578_1_2212122746941587821_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/578_2_2212122746941587821_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          782464.0,
+          738032.0,
+          860120.0
+        ],
+        "junction_hash": "2212122746941587821",
+        "latest_root_id": "864691136484671020",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135119367901",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135119367901/2212122746941587821.json",
+        "root_id": "864691135119367901"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 14,
+      "parquet_idx": 542,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": true,
+      "correct": false,
+      "response_time_seconds": 17.467437,
+      "timestamp": "2026-01-22T14:40:03.785882",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/542_0_16050447250266733961_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/542_1_16050447250266733961_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/542_2_16050447250266733961_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "merge",
+        "interface_point": [
+          639320.0,
+          791168.0,
+          881780.0
+        ],
+        "junction_hash": "16050447250266733961",
+        "latest_root_id": "864691136012978339",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135119071709",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135119071709/16050447250266733961.json",
+        "root_id": "864691135119071709"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 15,
+      "parquet_idx": 1713,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 7.673416,
+      "timestamp": "2026-01-22T14:40:11.461547",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/1713_0_7738241342179276356_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/1713_1_7738241342179276356_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/1713_2_7738241342179276356_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          706376.0,
+          1026840.0,
+          840080.0
+        ],
+        "junction_hash": "7738241342179276356",
+        "latest_root_id": "864691135509419017",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135355164111",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135355164111/7738241342179276356.json",
+        "root_id": "864691135355164111"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 16,
+      "parquet_idx": 4049,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 8.042166,
+      "timestamp": "2026-01-22T14:40:19.505080",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/4049_0_18275268114701105608_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/4049_1_18275268114701105608_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/4049_2_18275268114701105608_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          660872.0,
+          775184.0,
+          809880.0
+        ],
+        "junction_hash": "18275268114701105608",
+        "latest_root_id": "864691135430286384",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135511598544",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135511598544/18275268114701105608.json",
+        "root_id": "864691135511598544"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 17,
+      "parquet_idx": 4300,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 13.557053,
+      "timestamp": "2026-01-22T14:40:33.064959",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/4300_0_14466616216756019484_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/4300_1_14466616216756019484_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/4300_2_14466616216756019484_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          727176.0,
+          1046760.0,
+          885080.0
+        ],
+        "junction_hash": "14466616216756019484",
+        "latest_root_id": "864691135164434989",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135546523944",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135546523944/14466616216756019484.json",
+        "root_id": "864691135546523944"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 18,
+      "parquet_idx": 9340,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": true,
+      "correct": false,
+      "response_time_seconds": 20.829926,
+      "timestamp": "2026-01-22T14:40:53.897866",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/9340_0_17710272281361910302_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/9340_1_17710272281361910302_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/9340_2_17710272281361910302_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "merge",
+        "interface_point": [
+          716376.0,
+          473344.0,
+          840800.0
+        ],
+        "junction_hash": "17710272281361910302",
+        "latest_root_id": "864691136906014642",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135948855649",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135948855649/17710272281361910302.json",
+        "root_id": "864691135948855649"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 19,
+      "parquet_idx": 11136,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 14.926571,
+      "timestamp": "2026-01-22T14:41:08.827427",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/11136_0_4940516762198283905_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/11136_1_4940516762198283905_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/11136_2_4940516762198283905_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          603392.0,
+          842120.0,
+          728640.0
+        ],
+        "junction_hash": "4940516762198283905",
+        "latest_root_id": "864691135105190989",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691136227155025",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691136227155025/4940516762198283905.json",
+        "root_id": "864691136227155025"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 20,
+      "parquet_idx": 483,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": true,
+      "ground_truth": false,
+      "correct": false,
+      "response_time_seconds": 16.534892,
+      "timestamp": "2026-01-22T14:41:25.364182",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/483_0_3506739504087760394_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/483_1_3506739504087760394_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/483_2_3506739504087760394_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          706040.0,
+          376328.0,
+          799400.0
+        ],
+        "junction_hash": "3506739504087760394",
+        "latest_root_id": "864691136034102203",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135104360269",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135104360269/3506739504087760394.json",
+        "root_id": "864691135104360269"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 21,
+      "parquet_idx": 10376,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 8.381381,
+      "timestamp": "2026-01-22T14:41:33.751701",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/10376_0_10660984463827016434_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/10376_1_10660984463827016434_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/10376_2_10660984463827016434_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          790664.0,
+          825528.0,
+          725280.0
+        ],
+        "junction_hash": "10660984463827016434",
+        "latest_root_id": "864691135562842337",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691136108071129",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691136108071129/10660984463827016434.json",
+        "root_id": "864691136108071129"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 22,
+      "parquet_idx": 3676,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 6.304818,
+      "timestamp": "2026-01-22T14:41:40.059830",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/3676_0_13523048528377579804_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/3676_1_13523048528377579804_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/3676_2_13523048528377579804_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "merge",
+        "interface_point": [
+          796632.0,
+          931960.0,
+          879180.0
+        ],
+        "junction_hash": "13523048528377579804",
+        "latest_root_id": "864691135309628742",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135483776693",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135483776693/13523048528377579804.json",
+        "root_id": "864691135483776693"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 23,
+      "parquet_idx": 13239,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 57.573042,
+      "timestamp": "2026-01-22T14:42:37.634571",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/13239_0_6833694316501723048_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/13239_1_6833694316501723048_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/13239_2_6833694316501723048_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          714880.0,
+          655816.0,
+          773080.0
+        ],
+        "junction_hash": "6833694316501723048",
+        "latest_root_id": "864691136010020524",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691136926876746",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691136926876746/6833694316501723048.json",
+        "root_id": "864691136926876746"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 24,
+      "parquet_idx": 12016,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 10.424761,
+      "timestamp": "2026-01-22T14:42:48.062085",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/12016_0_11259338924368950585_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/12016_1_11259338924368950585_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/12016_2_11259338924368950585_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          862336.0,
+          488216.0,
+          880600.0
+        ],
+        "junction_hash": "11259338924368950585",
+        "latest_root_id": "864691136390828919",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691136390827895",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691136390827895/11259338924368950585.json",
+        "root_id": "864691136390827895"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 25,
+      "parquet_idx": 12959,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": true,
+      "correct": false,
+      "response_time_seconds": 10.694752,
+      "timestamp": "2026-01-22T14:42:58.759747",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/12959_0_8316812007964007150_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/12959_1_8316812007964007150_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/12959_2_8316812007964007150_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "merge",
+        "interface_point": [
+          709444.0,
+          737352.0,
+          843080.0
+        ],
+        "junction_hash": "8316812007964007150",
+        "latest_root_id": "864691136067681176",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691136725682173",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691136725682173/8316812007964007150.json",
+        "root_id": "864691136725682173"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 26,
+      "parquet_idx": 10072,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 6.436031,
+      "timestamp": "2026-01-22T14:43:05.197077",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/10072_0_480942900862617862_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/10072_1_480942900862617862_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/10072_2_480942900862617862_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "merge",
+        "interface_point": [
+          1363904.0,
+          1008640.0,
+          861820.0
+        ],
+        "junction_hash": "480942900862617862",
+        "latest_root_id": "864691135616028521",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691136056565464",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691136056565464/480942900862617862.json",
+        "root_id": "864691136056565464"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 27,
+      "parquet_idx": 7744,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 12.570035,
+      "timestamp": "2026-01-22T14:43:17.770184",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/7744_0_13037435088665724723_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/7744_1_13037435088665724723_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/7744_2_13037435088665724723_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          678904.0,
+          738928.0,
+          921360.0
+        ],
+        "junction_hash": "13037435088665724723",
+        "latest_root_id": "864691135989177347",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135801298530",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135801298530/13037435088665724723.json",
+        "root_id": "864691135801298530"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 28,
+      "parquet_idx": 4079,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 8.603936,
+      "timestamp": "2026-01-22T14:43:26.376537",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/4079_0_1484352542741281953_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/4079_1_1484352542741281953_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/4079_2_1484352542741281953_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          832616.0,
+          585400.0,
+          752280.0
+        ],
+        "junction_hash": "1484352542741281953",
+        "latest_root_id": "864691135479833030",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135512058832",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135512058832/1484352542741281953.json",
+        "root_id": "864691135512058832"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 29,
+      "parquet_idx": 8302,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 5.529771,
+      "timestamp": "2026-01-22T14:43:31.909200",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/8302_0_12714318217408743129_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/8302_1_12714318217408743129_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/8302_2_12714318217408743129_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "merge",
+        "interface_point": [
+          730636.0,
+          741064.0,
+          770220.0
+        ],
+        "junction_hash": "12714318217408743129",
+        "latest_root_id": "864691136041321982",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135866832348",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135866832348/12714318217408743129.json",
+        "root_id": "864691135866832348"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 30,
+      "parquet_idx": 10902,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": true,
+      "ground_truth": false,
+      "correct": false,
+      "response_time_seconds": 17.965837,
+      "timestamp": "2026-01-22T14:43:49.878227",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/10902_0_3324321338147291557_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/10902_1_3324321338147291557_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/10902_2_3324321338147291557_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          678032.0,
+          490080.0,
+          909480.0
+        ],
+        "junction_hash": "3324321338147291557",
+        "latest_root_id": "864691135685087474",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691136195435734",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691136195435734/3324321338147291557.json",
+        "root_id": "864691136195435734"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 31,
+      "parquet_idx": 5136,
+      "user_id": "anonymous",
+      "task_name": "merge-error-identification",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 16.330636,
+      "timestamp": "2026-01-22T14:44:06.211570",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/5136_0_5292655930791754820_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/5136_1_5292655930791754820_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-error-identification-parquet/images/5136_2_5292655930791754820_7500nm_top.png"
+      ],
+      "metadata": {
+        "error_type": "control",
+        "interface_point": [
+          760840.0,
+          931464.0,
+          855560.0
+        ],
+        "junction_hash": "5292655930791754820",
+        "latest_root_id": "864691135773776459",
+        "rerender_images_dir": "scratch/junction_errors_and_controls_rendered/864691135585584248",
+        "rerender_metadata_path": "scratch/junction_errors_and_controls/864691135585584248/5292655930791754820.json",
+        "root_id": "864691135585584248"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    }
+  ],
+  "tim_responses": [
+    true,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    false,
+    true
+  ],
+  "tim_accuracy": 0.7096774193548387,
+  "tim_num_correct": 22,
+  "human_tim_kappa": 0.29399585921325055,
+  "accuracy_se": 0.07858983387512676,
+  "tim_accuracy_se": 0.08152485862976439
+}

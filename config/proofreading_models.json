@@ -1,0 +1,87 @@
+{
+  "vlm_all": {
+    "endpoint_error_identification": {
+      "model_type": "vlm",
+      "model_path": "endpoint_error_identification_finetune_Qwen3-VL-32B-Instruct_endpoint_error_identification_lora_merger_20260122_122848_samplesall_epochs3_lr0.0002_r16_merged",
+      "answer_only": true,
+      "num_samples": 25,
+      "description": "Identify split errors at skeleton endpoints using mesh views only (no EM)",
+      "dataset": "training_data/endpoint-error-identification-parquet"
+    },
+    "merge_action": {
+      "model_type": "vlm",
+      "model_path": "merge_action_finetune_Qwen3-VL-32B-Instruct_merge_action_lora_merger_20260126_002129_samplesall_epochs3_lr0.0002_r16_merged",
+      "answer_only": false,
+      "num_samples": 5,
+      "description": "Binary yes/no for each merge candidate",
+      "dataset": "training_data/merge-parquet"
+    },
+    "split_action": {
+      "model_type": "vlm",
+      "model_path": "split_action_32B_r32_longer_patience_checkpoint-900_merged",
+      "answer_only": false,
+      "num_samples": 1,
+      "description": "Binary yes/no for split action evaluation",
+      "dataset": "training_data/splits-parquet"
+    },
+    "split_proposal": {
+      "model_type": "vlm",
+      "model_path": "split_proposal_finetune_Qwen3-VL-32B-Instruct_split_proposal_big_20260115_203735_samplesall_epochs4_lr0.0002_r16_merged",
+      "answer_only": false,
+      "num_samples": 1,
+      "description": "Propose split points for merge errors",
+      "dataset": "training_data/split-proposals-parquet"
+    },
+    "endpoint_error_identification_with_em": {
+      "model_type": "vlm",
+      "model_path": "endpoint_error_identification_with_em_finetune_Qwen3-VL-32B-Instruct_endpoint_identification_EM_lora_merger_big_20260126_012931_samplesall_epochs3_lr8e-05_r16_merged",
+      "answer_only": true,
+      "num_samples": 25,
+      "description": "Identify split errors at skeleton endpoints using mesh + EM views",
+      "dataset": "training_data/endpoint-error-identification-with-em-parquet"
+    },
+    "merge_error_identification": {
+      "model_type": "vlm",
+      "model_path": "merge_error_identification_finetune_Qwen3-VL-32B-Instruct_merge_error_identification_lora_merger_20260122_145540_samplesall_epochs3_lr0.0002_r16_merged",
+      "answer_only": true,
+      "num_samples": 1,
+      "description": "Identify merge errors at skeleton junctions",
+      "dataset": "training_data/merge-error-identification-parquet"
+    }
+  },
+
+  "siglip_all": {
+    "endpoint_error_identification_siglip": {
+      "model_type": "siglip_probe",
+      "model_path": "probe_weights/google_siglip2-so400m-patch16-512_endpoint_error_identification_linear_mean.npz",
+      "vision_model": "google/siglip2-so400m-patch16-512",
+      "pooling": "mean",
+      "num_samples": 1,
+      "description": "SigLIP-2 linear probe for endpoint error identification"
+    },
+    "merge_action_siglip": {
+      "model_type": "siglip_probe",
+      "model_path": "probe_weights/google_siglip2-so400m-patch16-512_merge_action_linear_mean.npz",
+      "vision_model": "google/siglip2-so400m-patch16-512",
+      "pooling": "mean",
+      "num_samples": 1,
+      "description": "SigLIP-2 linear probe for merge action"
+    }
+  },
+
+  "resnet_all": {
+    "endpoint_error_identification_resnet": {
+      "model_type": "resnet",
+      "model_path": "resnet/endpoint_error_identification",
+      "num_samples": 1,
+      "description": "ResNet-50 baseline for endpoint error identification"
+    },
+
+    "merge_action_resnet": {
+      "model_type": "resnet",
+      "model_path": "resnet/merge_action",
+      "num_samples": 1,
+      "description": "ResNet-50 baseline for merge action"
+    }
+  }
+}

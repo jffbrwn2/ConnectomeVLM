@@ -1,0 +1,11 @@
+{
+  "checkpoint": "resnet50_split_action_20260128_081834",
+  "task": null,
+  "dataset_path": null,
+  "use_test_set": true,
+  "timestamp": "20260128_090625",
+  "accuracy": 0.66796875,
+  "balanced_accuracy": 0.5903316165175747,
+  "correct": 684,
+  "total": 1024
+}

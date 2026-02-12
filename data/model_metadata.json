@@ -1,0 +1,54 @@
+{
+  "model_parameters": {
+    "siglip2_so400m": 1152000000,
+    "resnet50": 23512130,
+    "resnet18": 11177538,
+    "resnet34": 21284162,
+    "resnet101": 42503234,
+    "resnet152": 58155586,
+    "wide_resnet101_2": 126886784,
+    "vit_l_32": 304326632,
+    "vit_h_14": 632045800,
+    "convnext_large": 197767336
+  },
+  "train_samples": {
+    "endpoint_error_identification_with_em": 3704,
+    "merge_action": 10552,
+    "merge_error_identification": 9600,
+    "split_action": 13296
+  },
+  "resnet_configs": {
+    "frozen": {
+      "train_samples": {
+        "endpoint_error_identification_with_em": 3704,
+        "merge_action": 10552,
+        "merge_error_identification": 9600,
+        "split_action": 13296
+      },
+      "trainable_params": 4098,
+      "total_params": 23512130
+    },
+    "small": {
+      "train_samples": {
+        "endpoint_error_identification_with_em": 512,
+        "merge_action": 512,
+        "merge_error_identification": 512,
+        "split_action": 512
+      },
+      "trainable_params": 23512130,
+      "total_params": 23512130
+    },
+    "finetuned": {
+      "train_samples": {
+        "endpoint_error_identification_with_em": 3704,
+        "merge_action": 10552,
+        "merge_error_identification": 9600,
+        "split_action": 13296
+      },
+      "trainable_params": 23512130,
+      "total_params": 23512130
+    }
+  },
+  "linear_probe_trainable_params": 2304,
+  "linear_probe_total_params": 1152002304
+}

@@ -1,0 +1,11 @@
+{
+  "checkpoint": "resnet50_resnet50_split_action_test_frozen",
+  "task": "split_action",
+  "dataset_path": "split_generalization_parquets/fly-splits",
+  "use_test_set": false,
+  "timestamp": "20260128_024046",
+  "accuracy": 0.7241379310344828,
+  "balanced_accuracy": 0.5,
+  "correct": 147,
+  "total": 203
+}

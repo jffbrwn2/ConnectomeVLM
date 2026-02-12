@@ -1,0 +1,360 @@
+{
+  "endpoint_error_identification_with_em": {
+    "mouse": {
+      "frozen": {
+        "balanced_accuracy": 0.6331075533661741,
+        "accuracy": 0.6328293736501079,
+        "correct": 293,
+        "total": 463
+      },
+      "finetuned": {
+        "balanced_accuracy": 0.7108430362740707,
+        "accuracy": 0.7105831533477321,
+        "correct": 329,
+        "total": 463
+      },
+      "small": {
+        "balanced_accuracy": 0.6695948975349635,
+        "accuracy": 0.66917841516772,
+        "correct": 2753,
+        "total": 4114
+      },
+      "vlm": {
+        "accuracy": 0.8359375,
+        "balanced_accuracy": 0.8359375,
+        "individual_accuracy": 0.6980306345733042,
+        "majority_accuracy": 0.8359375
+      }
+    },
+    "fly": {},
+    "zebrafish": {
+      "finetuned": {
+        "accuracy": 0.6914,
+        "balanced_accuracy": 0.6914,
+        "correct": 177,
+        "total": 256
+      },
+      "vlm": {
+        "accuracy": 0.6796875,
+        "balanced_accuracy": 0.6796875,
+        "individual_accuracy": 0.6001875586120663,
+        "majority_accuracy": 0.6796875
+      }
+    },
+    "human": {
+      "finetuned": {
+        "accuracy": 0.5513,
+        "balanced_accuracy": 0.5565,
+        "correct": 129,
+        "total": 234
+      },
+      "vlm": {
+        "accuracy": 0.6328125,
+        "balanced_accuracy": 0.6328125,
+        "individual_accuracy": 0.5658018130665833,
+        "majority_accuracy": 0.6328125
+      }
+    }
+  },
+  "merge_action": {
+    "mouse": {
+      "small": {
+        "balanced_accuracy": 0.5,
+        "accuracy": 0.718322774258086,
+        "correct": 8617,
+        "total": 11996
+      },
+      "frozen": {
+        "balanced_accuracy": 0.7644082156023172,
+        "accuracy": 0.8278999241849886,
+        "correct": 1092,
+        "total": 1319
+      },
+      "finetuned": {
+        "balanced_accuracy": 0.9614106541799281,
+        "accuracy": 0.9696739954510993,
+        "correct": 1279,
+        "total": 1319
+      },
+      "vlm": {
+        "accuracy": 0.921875,
+        "balanced_accuracy": 0.9375,
+        "correct": 118,
+        "total": 128,
+        "individual_accuracy": 0.9436619718309859,
+        "majority_accuracy": 0.9375
+      }
+    },
+    "fly": {
+      "frozen": {
+        "balanced_accuracy": 0.6483232743964638,
+        "accuracy": 0.6084142394822006,
+        "correct": 376,
+        "total": 618
+      },
+      "finetuned": {
+        "balanced_accuracy": 0.8307973478408706,
+        "accuracy": 0.8122977346278317,
+        "correct": 502,
+        "total": 618
+      },
+      "vlm": {
+        "accuracy": 0.765625,
+        "balanced_accuracy": 0.78125,
+        "correct": 98,
+        "total": 128,
+        "individual_accuracy": 0.7809375,
+        "majority_accuracy": 0.78125
+      }
+    },
+    "zebrafish": {
+      "finetuned": {
+        "balanced_accuracy": 0.8308211844164402,
+        "accuracy": 0.8242811501597445,
+        "correct": 258,
+        "total": 313
+      },
+      "frozen": {
+        "balanced_accuracy": 0.6562062433078,
+        "accuracy": 0.6517571884984026,
+        "correct": 204,
+        "total": 313
+      },
+      "vlm": {
+        "accuracy": 0.796875,
+        "balanced_accuracy": 0.8125,
+        "correct": 102,
+        "total": 128,
+        "individual_accuracy": 0.798125,
+        "majority_accuracy": 0.8125
+      }
+    },
+    "human": {
+      "frozen": {
+        "balanced_accuracy": 0.6034598458129156,
+        "accuracy": 0.5875,
+        "correct": 423,
+        "total": 720
+      },
+      "finetuned": {
+        "balanced_accuracy": 0.893707668778676,
+        "accuracy": 0.8916666666666667,
+        "correct": 642,
+        "total": 720
+      },
+      "vlm": {
+        "accuracy": 0.8125,
+        "balanced_accuracy": 0.84375,
+        "correct": 104,
+        "total": 128,
+        "individual_accuracy": 0.8271875,
+        "majority_accuracy": 0.84375
+      }
+    }
+  },
+  "merge_error_identification": {
+    "mouse": {
+      "frozen": {
+        "balanced_accuracy": 0.6600640474888698,
+        "accuracy": 0.681640625,
+        "correct": 698,
+        "total": 1024
+      },
+      "finetuned": {
+        "balanced_accuracy": 0.791943011545075,
+        "accuracy": 0.796875,
+        "correct": 102,
+        "total": 128
+      },
+      "vlm": {
+        "accuracy": 0.7734375,
+        "balanced_accuracy": 0.8125,
+        "correct": 99,
+        "total": 128,
+        "individual_accuracy": 0.769375,
+        "majority_accuracy": 0.8125
+      }
+    },
+    "fly": {
+      "finetuned": {
+        "balanced_accuracy": 0.5709,
+        "accuracy": 0.5781,
+        "correct": 74,
+        "total": 128
+      },
+      "vlm": {
+        "accuracy": 0.59375,
+        "balanced_accuracy": 0.640625,
+        "correct": 76,
+        "total": 128,
+        "individual_accuracy": 0.609375,
+        "majority_accuracy": 0.640625
+      }
+    },
+    "zebrafish": {
+      "finetuned": {
+        "balanced_accuracy": 0.5365,
+        "accuracy": 0.5312,
+        "correct": 68,
+        "total": 128
+      },
+      "vlm": {
+        "accuracy": 0.5703125,
+        "balanced_accuracy": 0.59375,
+        "correct": 73,
+        "total": 128,
+        "individual_accuracy": 0.5714285714285714,
+        "majority_accuracy": 0.59375
+      }
+    },
+    "human": {
+      "finetuned": {
+        "balanced_accuracy": 0.5156,
+        "accuracy": 0.5156,
+        "correct": 66,
+        "total": 128
+      },
+      "vlm": {
+        "accuracy": 0.703125,
+        "balanced_accuracy": 0.765625,
+        "correct": 90,
+        "total": 128,
+        "individual_accuracy": 0.6773991872460143,
+        "majority_accuracy": 0.765625
+      }
+    }
+  },
+  "split_action": {
+    "mouse": {
+      "finetuned": {
+        "balanced_accuracy": 0.9157761591137087,
+        "accuracy": 0.9315726290516206,
+        "correct": 776,
+        "total": 833
+      },
+      "frozen": {
+        "balanced_accuracy": 0.6213416495834605,
+        "accuracy": 0.631452581032413,
+        "correct": 526,
+        "total": 833
+      },
+      "small": {
+        "balanced_accuracy": 0.5903316165175747,
+        "accuracy": 0.66796875,
+        "correct": 684,
+        "total": 1024
+      },
+      "vlm": {
+        "accuracy": 0.7421875,
+        "balanced_accuracy": 0.7109375,
+        "correct": 95,
+        "total": 128,
+        "individual_accuracy": 0.7121875,
+        "majority_accuracy": 0.7109375
+      }
+    },
+    "fly": {
+      "finetuned": {
+        "balanced_accuracy": 0.5344387755102041,
+        "accuracy": 0.6699507389162561,
+        "correct": 136,
+        "total": 203
+      },
+      "frozen": {
+        "balanced_accuracy": 0.5,
+        "accuracy": 0.7241379310344828,
+        "correct": 147,
+        "total": 203
+      },
+      "vlm": {
+        "accuracy": 0.5357142857142857,
+        "balanced_accuracy": 0.5535714285714286,
+        "correct": 60,
+        "total": 112,
+        "individual_accuracy": 0.5525,
+        "majority_accuracy": 0.5535714285714286
+      }
+    },
+    "zebrafish": {
+      "finetuned": {
+        "balanced_accuracy": 0.5302099334357399,
+        "accuracy": 0.801829268292683,
+        "correct": 263,
+        "total": 328
+      },
+      "frozen": {
+        "balanced_accuracy": 0.5,
+        "accuracy": 0.850609756097561,
+        "correct": 279,
+        "total": 328
+      },
+      "vlm": {
+        "accuracy": 0.5625,
+        "balanced_accuracy": 0.6171875,
+        "correct": 72,
+        "total": 128,
+        "individual_accuracy": 0.583307283526102,
+        "majority_accuracy": 0.6171875
+      }
+    },
+    "human": {
+      "finetuned": {
+        "balanced_accuracy": 0.48871465906391065,
+        "accuracy": 0.5076923076923077,
+        "correct": 66,
+        "total": 130
+      },
+      "frozen": {
+        "balanced_accuracy": 0.5,
+        "accuracy": 0.5307692307692308,
+        "correct": 69,
+        "total": 130
+      },
+      "vlm": {
+        "accuracy": 0.7058823529411765,
+        "balanced_accuracy": 0.6764705882352942,
+        "correct": 48,
+        "total": 68,
+        "individual_accuracy": 0.6847058823529412,
+        "majority_accuracy": 0.6764705882352942
+      }
+    }
+  },
+  "split_error_identification": {
+    "mouse": {},
+    "zebrafish": {},
+    "human": {}
+  },
+  "endpoint_error_identification": {
+    "mouse": {
+      "vlm": {
+        "accuracy": 0.71875,
+        "balanced_accuracy": 0.8359375,
+        "correct": 92,
+        "total": 128,
+        "individual_accuracy": 0.6980306345733042,
+        "majority_accuracy": 0.8359375
+      }
+    },
+    "zebrafish": {
+      "vlm": {
+        "accuracy": 0.640625,
+        "balanced_accuracy": 0.6796875,
+        "correct": 82,
+        "total": 128,
+        "individual_accuracy": 0.6001875586120663,
+        "majority_accuracy": 0.6796875
+      }
+    },
+    "human": {
+      "vlm": {
+        "accuracy": 0.6640625,
+        "balanced_accuracy": 0.6328125,
+        "correct": 85,
+        "total": 128,
+        "individual_accuracy": 0.5658018130665833,
+        "majority_accuracy": 0.6328125
+      }
+    }
+  }
+}

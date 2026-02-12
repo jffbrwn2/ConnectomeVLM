@@ -1,0 +1,18 @@
+{
+  "merge_action": {
+    "train_samples": 10402,
+    "test_samples": 1319
+  },
+  "split_action": {
+    "train_samples": 13174,
+    "test_samples": 1662
+  },
+  "merge_error_identification": {
+    "train_samples": 9598,
+    "test_samples": 1200
+  },
+  "endpoint_error_identification_with_em": {
+    "train_samples": 3700,
+    "test_samples": 463
+  }
+}

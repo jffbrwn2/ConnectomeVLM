@@ -1,0 +1,11 @@
+{
+  "checkpoint": "resnet50_resnet50_merge_error_identification_test",
+  "task": "merge_error_identification",
+  "dataset_path": "species_generalization_parquets/zebrafish_merge_7500nm_parquet",
+  "use_test_set": false,
+  "timestamp": "20260128_105031",
+  "accuracy": 0.22916666666666666,
+  "balanced_accuracy": 0.22916666666666666,
+  "correct": 11,
+  "total": 48
+}

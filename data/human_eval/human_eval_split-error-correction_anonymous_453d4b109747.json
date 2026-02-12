@@ -1,0 +1,949 @@
+{
+  "user_id": "anonymous",
+  "task_name": "split-error-correction",
+  "session_id": "453d4b109747",
+  "start_time": "2026-01-22T14:49:11.305849",
+  "end_time": "2026-01-22T14:55:23.487265",
+  "num_samples": 31,
+  "num_correct": 29,
+  "accuracy": 0.9354838709677419,
+  "responses": [
+    {
+      "sample_idx": 1,
+      "parquet_idx": 1824,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 23.572378,
+      "timestamp": "2026-01-22T14:49:36.251144",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/1824_0_merge_pos_580445_864691136903852722_864691134719997688_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/1824_1_merge_pos_580445_864691136903852722_864691134719997688_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/1824_2_merge_pos_580445_864691136903852722_864691134719997688_8192nm_top.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          728416.5,
+          687183.0,
+          901855.5
+        ],
+        "sample_dir": "training_data/merge-corrections/good/580445_864691136903852722_864691134719997688",
+        "segment1_id": "864691136903852722"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 2,
+      "parquet_idx": 409,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 5.109348,
+      "timestamp": "2026-01-22T14:49:41.360923",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/409_0_merge_pos_739303_864691135502649922_864691135841957603_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/409_1_merge_pos_739303_864691135502649922_864691135841957603_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/409_2_merge_pos_739303_864691135502649922_864691135841957603_8192nm_top.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          627070.5,
+          487709.25,
+          863987.25
+        ],
+        "sample_dir": "training_data/merge-corrections/good/739303_864691135502649922_864691135841957603",
+        "segment1_id": "864691135502649922"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 3,
+      "parquet_idx": 12149,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 17.777949,
+      "timestamp": "2026-01-22T14:49:59.139832",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/12149_0_merge_neg_1796026_864691136239729724_864691135384118251_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/12149_1_merge_neg_1796026_864691136239729724_864691135384118251_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/12149_2_merge_neg_1796026_864691136239729724_864691135384118251_8192nm_side.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          710791.6875,
+          567991.6875,
+          869099.0
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/1796026_864691136239729724_864691135384118251",
+        "segment1_id": "864691136239729724"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 4,
+      "parquet_idx": 4506,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 31.928828,
+      "timestamp": "2026-01-22T14:50:31.070358",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/4506_0_merge_neg_891821_864691135716255770_864691135486373316_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/4506_1_merge_neg_891821_864691135716255770_864691135486373316_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/4506_2_merge_neg_891821_864691135716255770_864691135486373316_8192nm_side.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          1233031.625,
+          424031.09375,
+          803580.5
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/891821_864691135716255770_864691135486373316",
+        "segment1_id": "864691135716255770"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 5,
+      "parquet_idx": 4012,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 7.465034,
+      "timestamp": "2026-01-22T14:50:38.535812",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/4012_0_merge_neg_1135573_864691135773106171_864691135977762108_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/4012_1_merge_neg_1135573_864691135773106171_864691135977762108_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/4012_2_merge_neg_1135573_864691135773106171_864691135977762108_8192nm_front.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          764631.0,
+          882850.5,
+          886084.5
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/1135573_864691135773106171_864691135977762108",
+        "segment1_id": "864691135773106171"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 6,
+      "parquet_idx": 3657,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 8.019058,
+      "timestamp": "2026-01-22T14:50:46.555510",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/3657_0_merge_pos_1155028_864691135731755705_864691135773223419_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/3657_1_merge_pos_1155028_864691135731755705_864691135773223419_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/3657_2_merge_pos_1155028_864691135731755705_864691135773223419_8192nm_side.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          992449.5,
+          650590.5,
+          594006.0
+        ],
+        "sample_dir": "training_data/merge-corrections/good/1155028_864691135731755705_864691135773223419",
+        "segment1_id": "864691135731755705"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 7,
+      "parquet_idx": 2286,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 6.347354,
+      "timestamp": "2026-01-22T14:50:52.904073",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/2286_0_merge_pos_1073064_864691135726917183_864691135955083272_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/2286_1_merge_pos_1073064_864691135726917183_864691135955083272_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/2286_2_merge_pos_1073064_864691135726917183_864691135955083272_8192nm_top.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          503370.0,
+          589989.75,
+          942989.25
+        ],
+        "sample_dir": "training_data/merge-corrections/good/1073064_864691135726917183_864691135955083272",
+        "segment1_id": "864691135726917183"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 8,
+      "parquet_idx": 12066,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 4.716003,
+      "timestamp": "2026-01-22T14:50:57.621269",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/12066_0_merge_neg_1102926_864691135395566581_864691135211342918_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/12066_1_merge_neg_1102926_864691135395566581_864691135211342918_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/12066_2_merge_neg_1102926_864691135395566581_864691135211342918_8192nm_side.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          790366.5,
+          949693.5,
+          1028097.0
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/1102926_864691135395566581_864691135211342918",
+        "segment1_id": "864691135395566581"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 9,
+      "parquet_idx": 1679,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": true,
+      "correct": false,
+      "response_time_seconds": 11.93207,
+      "timestamp": "2026-01-22T14:51:09.555412",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/1679_0_merge_pos_1646085_864691137055966582_864691135527845211_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/1679_1_merge_pos_1646085_864691137055966582_864691135527845211_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/1679_2_merge_pos_1646085_864691137055966582_864691135527845211_8192nm_top.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          617778.0,
+          710209.5,
+          836997.0
+        ],
+        "sample_dir": "training_data/merge-corrections/good/1646085_864691137055966582_864691135527845211",
+        "segment1_id": "864691137055966582"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 10,
+      "parquet_idx": 11087,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 5.264033,
+      "timestamp": "2026-01-22T14:51:14.820974",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/11087_0_merge_neg_1851028_864691135592783883_864691135947568164_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/11087_1_merge_neg_1851028_864691135592783883_864691135947568164_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/11087_2_merge_neg_1851028_864691135592783883_864691135947568164_8192nm_side.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          593265.75,
+          712971.0,
+          835994.25
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/1851028_864691135592783883_864691135947568164",
+        "segment1_id": "864691135592783883"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 11,
+      "parquet_idx": 12135,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 28.579775,
+      "timestamp": "2026-01-22T14:51:43.401967",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/12135_0_merge_neg_1491766_864691136125892902_864691135377750770_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/12135_1_merge_neg_1491766_864691136125892902_864691135377750770_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/12135_2_merge_neg_1491766_864691136125892902_864691135377750770_8192nm_top.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          686889.0,
+          446922.0,
+          1013218.5
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/1491766_864691136125892902_864691135377750770",
+        "segment1_id": "864691136125892902"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 12,
+      "parquet_idx": 8935,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 24.827984,
+      "timestamp": "2026-01-22T14:52:08.235750",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/8935_0_merge_neg_1766311_864691135214772608_864691136267101335_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/8935_1_merge_neg_1766311_864691135214772608_864691136267101335_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/8935_2_merge_neg_1766311_864691135214772608_864691136267101335_8192nm_top.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          682122.0,
+          551055.75,
+          973497.0
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/1766311_864691135214772608_864691136267101335",
+        "segment1_id": "864691135214772608"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 13,
+      "parquet_idx": 1424,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": true,
+      "correct": false,
+      "response_time_seconds": 18.249771,
+      "timestamp": "2026-01-22T14:52:26.485908",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/1424_0_merge_pos_1018368_864691135368443641_864691135661852144_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/1424_1_merge_pos_1018368_864691135368443641_864691135661852144_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/1424_2_merge_pos_1018368_864691135368443641_864691135661852144_8192nm_side.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          695761.5,
+          773944.5,
+          896049.0
+        ],
+        "sample_dir": "training_data/merge-corrections/good/1018368_864691135368443641_864691135661852144",
+        "segment1_id": "864691135368443641"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 14,
+      "parquet_idx": 9674,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 11.114946,
+      "timestamp": "2026-01-22T14:52:37.602169",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/9674_0_merge_neg_706088_864691135556884932_864691134917800202_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/9674_1_merge_neg_706088_864691135556884932_864691134917800202_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/9674_2_merge_neg_706088_864691135556884932_864691134917800202_8192nm_top.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          741730.5,
+          377055.0,
+          812038.5
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/706088_864691135556884932_864691134917800202",
+        "segment1_id": "864691135556884932"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 15,
+      "parquet_idx": 6912,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 10.398473,
+      "timestamp": "2026-01-22T14:52:48.002012",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/6912_0_merge_neg_1062020_864691136009878958_864691135487677636_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/6912_1_merge_neg_1062020_864691136009878958_864691135487677636_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/6912_2_merge_neg_1062020_864691136009878958_864691135487677636_8192nm_front.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          1069593.0,
+          691593.0,
+          918015.0
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/1062020_864691136009878958_864691135487677636",
+        "segment1_id": "864691136009878958"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 16,
+      "parquet_idx": 520,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 8.200164,
+      "timestamp": "2026-01-22T14:52:56.203363",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/520_0_merge_pos_1171276_864691135059945883_864691136136105867_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/520_1_merge_pos_1171276_864691135059945883_864691136136105867_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/520_2_merge_pos_1171276_864691135059945883_864691136136105867_8192nm_top.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          897519.0,
+          610879.5,
+          850888.5
+        ],
+        "sample_dir": "training_data/merge-corrections/good/1171276_864691135059945883_864691136136105867",
+        "segment1_id": "864691135059945883"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 17,
+      "parquet_idx": 488,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 5.605464,
+      "timestamp": "2026-01-22T14:53:01.809176",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/488_0_merge_pos_769452_864691135211171008_864691136619405709_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/488_1_merge_pos_769452_864691135211171008_864691136619405709_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/488_2_merge_pos_769452_864691135211171008_864691136619405709_8192nm_front.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          773020.5,
+          713989.5,
+          903073.5
+        ],
+        "sample_dir": "training_data/merge-corrections/good/769452_864691135211171008_864691136619405709",
+        "segment1_id": "864691135211171008"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 18,
+      "parquet_idx": 1535,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 6.092,
+      "timestamp": "2026-01-22T14:53:07.901630",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/1535_0_merge_pos_826331_864691135940612609_864691135359354536_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/1535_1_merge_pos_826331_864691135940612609_864691135359354536_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/1535_2_merge_pos_826331_864691135940612609_864691135359354536_8192nm_top.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          832917.75,
+          788521.125,
+          889704.375
+        ],
+        "sample_dir": "training_data/merge-corrections/good/826331_864691135940612609_864691135359354536",
+        "segment1_id": "864691135940612609"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 19,
+      "parquet_idx": 3582,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 6.206888,
+      "timestamp": "2026-01-22T14:53:14.108962",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/3582_0_merge_pos_1488458_864691135209549945_864691135727317311_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/3582_1_merge_pos_1488458_864691135209549945_864691135727317311_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/3582_2_merge_pos_1488458_864691135209549945_864691135727317311_8192nm_front.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          871405.5,
+          540466.5,
+          770070.0
+        ],
+        "sample_dir": "training_data/merge-corrections/good/1488458_864691135209549945_864691135727317311",
+        "segment1_id": "864691135209549945"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 20,
+      "parquet_idx": 3811,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 10.754564,
+      "timestamp": "2026-01-22T14:53:24.863884",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/3811_0_merge_neg_827720_864691135726609983_864691135544006596_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/3811_1_merge_neg_827720_864691135726609983_864691135544006596_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/3811_2_merge_neg_827720_864691135726609983_864691135544006596_8192nm_side.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          728490.0,
+          539427.0,
+          819294.0
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/827720_864691135726609983_864691135544006596",
+        "segment1_id": "864691135726609983"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 21,
+      "parquet_idx": 8279,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 7.076857,
+      "timestamp": "2026-01-22T14:53:31.941920",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/8279_0_merge_neg_222423_864691136922945508_864691136836028014_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/8279_1_merge_neg_222423_864691136922945508_864691136836028014_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/8279_2_merge_neg_222423_864691136922945508_864691136836028014_8192nm_front.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          768211.5,
+          792613.5,
+          890998.5
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/222423_864691136922945508_864691136836028014",
+        "segment1_id": "864691136922945508"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 22,
+      "parquet_idx": 9863,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 5.910985,
+      "timestamp": "2026-01-22T14:53:37.853845",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/9863_0_merge_neg_1479185_864691135988976131_864691134884598815_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/9863_1_merge_neg_1479185_864691135988976131_864691134884598815_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/9863_2_merge_neg_1479185_864691135988976131_864691134884598815_8192nm_front.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          712414.5,
+          937920.375,
+          943674.375
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/1479185_864691135988976131_864691134884598815",
+        "segment1_id": "864691135988976131"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 23,
+      "parquet_idx": 434,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 13.908889,
+      "timestamp": "2026-01-22T14:53:51.763117",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/434_0_merge_pos_1719568_864691135343670961_864691136239625276_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/434_1_merge_pos_1719568_864691135343670961_864691136239625276_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/434_2_merge_pos_1719568_864691135343670961_864691136239625276_8192nm_front.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          840357.0,
+          791024.5,
+          788592.0
+        ],
+        "sample_dir": "training_data/merge-corrections/good/1719568_864691135343670961_864691136239625276",
+        "segment1_id": "864691135343670961"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 24,
+      "parquet_idx": 9195,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 44.337294,
+      "timestamp": "2026-01-22T14:54:36.101363",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/9195_0_merge_neg_186861_864691135303323815_864691135666409186_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/9195_1_merge_neg_186861_864691135303323815_864691135666409186_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/9195_2_merge_neg_186861_864691135303323815_864691135666409186_8192nm_side.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          1372633.5,
+          491074.5,
+          721360.5
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/186861_864691135303323815_864691135666409186",
+        "segment1_id": "864691135303323815"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 25,
+      "parquet_idx": 3257,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 6.26702,
+      "timestamp": "2026-01-22T14:54:42.368743",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/3257_0_merge_pos_1030400_864691136313156669_864691136390005008_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/3257_1_merge_pos_1030400_864691136313156669_864691136390005008_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/3257_2_merge_pos_1030400_864691136313156669_864691136390005008_8192nm_front.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          630273.0,
+          656754.0,
+          873705.0
+        ],
+        "sample_dir": "training_data/merge-corrections/good/1030400_864691136313156669_864691136390005008",
+        "segment1_id": "864691136313156669"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 26,
+      "parquet_idx": 11731,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 4.851201,
+      "timestamp": "2026-01-22T14:54:47.220867",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/11731_0_merge_neg_1854263_864691135742806123_864691136009828524_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/11731_1_merge_neg_1854263_864691135742806123_864691136009828524_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/11731_2_merge_neg_1854263_864691135742806123_864691136009828524_8192nm_side.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          712141.5,
+          810642.0,
+          973728.0
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/1854263_864691135742806123_864691136009828524",
+        "segment1_id": "864691135742806123"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 27,
+      "parquet_idx": 10647,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 5.700434,
+      "timestamp": "2026-01-22T14:54:52.922161",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/10647_0_merge_neg_1301743_864691135214411064_864691135376583666_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/10647_1_merge_neg_1301743_864691135214411064_864691135376583666_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/10647_2_merge_neg_1301743_864691135214411064_864691135376583666_8192nm_front.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          734921.25,
+          657273.75,
+          712057.5
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/1301743_864691135214411064_864691135376583666",
+        "segment1_id": "864691135214411064"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 28,
+      "parquet_idx": 11490,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 5.060713,
+      "timestamp": "2026-01-22T14:54:57.983886",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/11490_0_merge_neg_743855_864691135740601236_864691135446530194_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/11490_1_merge_neg_743855_864691135740601236_864691135446530194_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/11490_2_merge_neg_743855_864691135740601236_864691135446530194_8192nm_side.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          728941.5,
+          665736.75,
+          846504.75
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/743855_864691135740601236_864691135446530194",
+        "segment1_id": "864691135740601236"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 29,
+      "parquet_idx": 8928,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 11.570102,
+      "timestamp": "2026-01-22T14:55:09.554337",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/8928_0_merge_neg_1140207_864691136618601691_864691135534561778_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/8928_1_merge_neg_1140207_864691136618601691_864691135534561778_8192nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/8928_2_merge_neg_1140207_864691136618601691_864691135534561778_8192nm_side.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          1291339.0,
+          884992.5,
+          884170.0
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/1140207_864691136618601691_864691135534561778",
+        "segment1_id": "864691136618601691"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 30,
+      "parquet_idx": 6873,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 9.551131,
+      "timestamp": "2026-01-22T14:55:19.105869",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/6873_0_merge_neg_1584497_864691135583906669_864691135988305664_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/6873_1_merge_neg_1584497_864691135583906669_864691135988305664_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/6873_2_merge_neg_1584497_864691135583906669_864691135988305664_8192nm_front.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          843868.6875,
+          1032901.3125,
+          1038893.3125
+        ],
+        "sample_dir": "training_data/merge-corrections/bad/1584497_864691135583906669_864691135988305664",
+        "segment1_id": "864691135583906669"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 31,
+      "parquet_idx": 3611,
+      "user_id": "anonymous",
+      "task_name": "split-error-correction",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 4.380742,
+      "timestamp": "2026-01-22T14:55:23.487019",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/3611_0_merge_pos_911933_864691135183160066_864691135697327002_8192nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/3611_1_merge_pos_911933_864691135183160066_864691135697327002_8192nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/merge-parquet/images/3611_2_merge_pos_911933_864691135183160066_864691135697327002_8192nm_front.png"
+      ],
+      "metadata": {
+        "interface_point": [
+          612927.0,
+          888006.0,
+          711522.0
+        ],
+        "sample_dir": "training_data/merge-corrections/good/911933_864691135183160066_864691135697327002",
+        "segment1_id": "864691135183160066"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    }
+  ],
+  "tim_responses": [
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    true,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true
+  ],
+  "tim_accuracy": 0.9032258064516129,
+  "tim_num_correct": 28,
+  "human_tim_kappa": 0.7928730512249443,
+  "accuracy_se": 0.04412365254342185,
+  "tim_accuracy_se": 0.0531003155969743
+}

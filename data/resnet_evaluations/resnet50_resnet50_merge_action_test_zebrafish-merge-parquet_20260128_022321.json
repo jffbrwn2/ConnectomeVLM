@@ -1,0 +1,11 @@
+{
+  "checkpoint": "resnet50_resnet50_merge_action_test",
+  "task": "merge_action",
+  "dataset_path": "zebrafish-merge-parquet",
+  "use_test_set": false,
+  "timestamp": "20260128_022321",
+  "accuracy": 0.8242811501597445,
+  "balanced_accuracy": 0.8308211844164402,
+  "correct": 258,
+  "total": 313
+}

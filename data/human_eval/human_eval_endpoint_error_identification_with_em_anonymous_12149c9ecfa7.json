@@ -1,0 +1,1754 @@
+{
+  "user_id": "anonymous",
+  "task_name": "endpoint_error_identification_with_em",
+  "session_id": "12149c9ecfa7",
+  "start_time": "2026-01-28T20:50:38.240187",
+  "end_time": "2026-01-28T20:56:59.199779",
+  "num_samples": 31,
+  "num_correct": 19,
+  "accuracy": 0.6129032258064516,
+  "responses": [
+    {
+      "sample_idx": 1,
+      "parquet_idx": 114,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": false,
+      "ground_truth": true,
+      "correct": false,
+      "response_time_seconds": 48.355273,
+      "timestamp": "2026-01-28T20:51:29.412935",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/114_0_endpoint_6_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/114_1_endpoint_6_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/114_2_endpoint_6_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/114_3_endpoint_6_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/114_4_endpoint_6_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/114_5_endpoint_6_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment2",
+        "coord_nm": [
+          666435.0,
+          642642.0,
+          901866.0
+        ],
+        "distance_to_interface_nm": 85.30240324867758,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691135645665007_skeldir_841204",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          666361.5,
+          642600.0,
+          901876.5
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691134948597756",
+          "864691135696492186",
+          "864691135778114237",
+          "864691135783430963",
+          "864691136389356919"
+        ],
+        "operation_id": 841204.0,
+        "segment1_id": "864691135455243882",
+        "segment2_id": "864691135645665007",
+        "segment_id": "864691135645665007",
+        "skeleton_idx": 6,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": false
+    },
+    {
+      "sample_idx": 2,
+      "parquet_idx": 25,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 8.32697,
+      "timestamp": "2026-01-28T20:51:37.745065",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/25_0_endpoint_2245342_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/25_1_endpoint_2245342_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/25_2_endpoint_2245342_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/25_3_endpoint_2245342_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/25_4_endpoint_2245342_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/25_5_endpoint_2245342_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment1",
+        "coord_nm": [
+          809949.0,
+          877338.0,
+          758982.0
+        ],
+        "distance_to_interface_nm": 72.26970427675764,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691135699212565_skeldir_1564180",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          809890.1875,
+          877338.0,
+          758940.0
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691135528047256",
+          "864691136813454958"
+        ],
+        "operation_id": 1564180.0,
+        "segment1_id": "864691135699212565",
+        "segment2_id": "864691135456192106",
+        "segment_id": "864691135699212565",
+        "skeleton_idx": 2245342,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": true
+    },
+    {
+      "sample_idx": 3,
+      "parquet_idx": 759,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 11.434938,
+      "timestamp": "2026-01-28T20:51:49.185167",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/759_0_endpoint_3517211_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/759_1_endpoint_3517211_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/759_2_endpoint_3517211_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/759_3_endpoint_3517211_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/759_4_endpoint_3517211_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/759_5_endpoint_3517211_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": null,
+        "coord_nm": [
+          752703.0,
+          486087.0,
+          851424.0
+        ],
+        "distance_to_interface_nm": null,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/bad/864691135748642601_skeldir_3517211",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": null,
+        "is_split_error": false,
+        "nearby_segment_ids": null,
+        "operation_id": null,
+        "segment1_id": null,
+        "segment2_id": null,
+        "segment_id": "864691135748642601",
+        "skeleton_idx": 6519,
+        "source": "skeleton_direction",
+        "use_interface_center": null,
+        "vertex_idx": 3517211.0
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": false
+    },
+    {
+      "sample_idx": 4,
+      "parquet_idx": 281,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": false,
+      "ground_truth": true,
+      "correct": false,
+      "response_time_seconds": 14.908614,
+      "timestamp": "2026-01-28T20:52:04.097651",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/281_0_endpoint_1212_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/281_1_endpoint_1212_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/281_2_endpoint_1212_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/281_3_endpoint_1212_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/281_4_endpoint_1212_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/281_5_endpoint_1212_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment1",
+        "coord_nm": [
+          632856.0,
+          753312.0,
+          823389.0
+        ],
+        "distance_to_interface_nm": 69.25225628093283,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691136298322203_skeldir_1379124",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          632850.75,
+          753243.75,
+          823378.5
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691135323740548",
+          "864691135362866674",
+          "864691135368849913",
+          "864691135866885910",
+          "864691135955015432"
+        ],
+        "operation_id": 1379124.0,
+        "segment1_id": "864691136298322203",
+        "segment2_id": "864691135570996358",
+        "segment_id": "864691136298322203",
+        "skeleton_idx": 1212,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": true
+    },
+    {
+      "sample_idx": 5,
+      "parquet_idx": 250,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": false,
+      "ground_truth": true,
+      "correct": false,
+      "response_time_seconds": 12.309465,
+      "timestamp": "2026-01-28T20:52:16.410226",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/250_0_endpoint_1724_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/250_1_endpoint_1724_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/250_2_endpoint_1724_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/250_3_endpoint_1724_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/250_4_endpoint_1724_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/250_5_endpoint_1724_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment2",
+        "coord_nm": [
+          868350.0,
+          600432.0,
+          628362.0
+        ],
+        "distance_to_interface_nm": 61.22499489587565,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691135728950785_skeldir_1225225",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          868350.0,
+          600463.5,
+          628309.5
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691135314211016",
+          "864691135462250226",
+          "864691135591234315",
+          "864691135709212161",
+          "864691135940502785",
+          "864691136730380910"
+        ],
+        "operation_id": 1225225.0,
+        "segment1_id": "864691135874997390",
+        "segment2_id": "864691135728950785",
+        "segment_id": "864691135728950785",
+        "skeleton_idx": 1724,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": false
+    },
+    {
+      "sample_idx": 6,
+      "parquet_idx": 228,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 15.102994,
+      "timestamp": "2026-01-28T20:52:31.517483",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/228_0_endpoint_2_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/228_1_endpoint_2_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/228_2_endpoint_2_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/228_3_endpoint_2_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/228_4_endpoint_2_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/228_5_endpoint_2_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment2",
+        "coord_nm": [
+          1051218.0,
+          645666.0,
+          889728.0
+        ],
+        "distance_to_interface_nm": 3276.0350880962037,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691135916538982_skeldir_952512",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          1052318.375,
+          648200.6875,
+          891487.8125
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691136904063666"
+        ],
+        "operation_id": 952512.0,
+        "segment1_id": "864691136967038158",
+        "segment2_id": "864691135916538982",
+        "segment_id": "864691135916538982",
+        "skeleton_idx": 2,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": true
+    },
+    {
+      "sample_idx": 7,
+      "parquet_idx": 142,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": false,
+      "ground_truth": true,
+      "correct": false,
+      "response_time_seconds": 17.584867,
+      "timestamp": "2026-01-28T20:52:49.105163",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/142_0_endpoint_19_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/142_1_endpoint_19_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/142_2_endpoint_19_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/142_3_endpoint_19_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/142_4_endpoint_19_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/142_5_endpoint_19_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment2",
+        "coord_nm": [
+          763434.0,
+          821877.0,
+          880194.0
+        ],
+        "distance_to_interface_nm": 1292.9172440647544,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691134176923818_skeldir_1160569",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          763735.0,
+          820974.0,
+          881069.0
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691134866342221",
+          "864691135279409057",
+          "864691135948051297",
+          "864691136062417586"
+        ],
+        "operation_id": 1160569.0,
+        "segment1_id": "864691136484379180",
+        "segment2_id": "864691134176923818",
+        "segment_id": "864691134176923818",
+        "skeleton_idx": 19,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": false
+    },
+    {
+      "sample_idx": 8,
+      "parquet_idx": 754,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 5.181941,
+      "timestamp": "2026-01-28T20:52:54.291993",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/754_0_endpoint_60955_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/754_1_endpoint_60955_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/754_2_endpoint_60955_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/754_3_endpoint_60955_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/754_4_endpoint_60955_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/754_5_endpoint_60955_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": null,
+        "coord_nm": [
+          644448.0,
+          461475.0,
+          704739.0
+        ],
+        "distance_to_interface_nm": null,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/bad/864691135373928265_skeldir_60955",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": null,
+        "is_split_error": false,
+        "nearby_segment_ids": null,
+        "operation_id": null,
+        "segment1_id": null,
+        "segment2_id": null,
+        "segment_id": "864691135373928265",
+        "skeleton_idx": 161,
+        "source": "skeleton_direction",
+        "use_interface_center": null,
+        "vertex_idx": 60955.0
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": false
+    },
+    {
+      "sample_idx": 9,
+      "parquet_idx": 104,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": false,
+      "ground_truth": true,
+      "correct": false,
+      "response_time_seconds": 9.634196,
+      "timestamp": "2026-01-28T20:53:03.929654",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/104_0_endpoint_6712_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/104_1_endpoint_6712_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/104_2_endpoint_6712_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/104_3_endpoint_6712_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/104_4_endpoint_6712_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/104_5_endpoint_6712_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment2",
+        "coord_nm": [
+          806043.0,
+          782922.0,
+          840966.0
+        ],
+        "distance_to_interface_nm": 160.61911467817274,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691135476830272_skeldir_1594053",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          806127.0,
+          783058.5,
+          840955.5
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691135359298984",
+          "864691135702398587",
+          "864691136420125079"
+        ],
+        "operation_id": 1594053.0,
+        "segment1_id": "864691135396344565",
+        "segment2_id": "864691135476830272",
+        "segment_id": "864691135476830272",
+        "skeleton_idx": 6712,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": false
+    },
+    {
+      "sample_idx": 10,
+      "parquet_idx": 692,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 15.709967,
+      "timestamp": "2026-01-28T20:53:19.643414",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/692_0_endpoint_780176_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/692_1_endpoint_780176_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/692_2_endpoint_780176_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/692_3_endpoint_780176_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/692_4_endpoint_780176_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/692_5_endpoint_780176_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": null,
+        "coord_nm": [
+          682878.0,
+          465108.0,
+          1073163.0
+        ],
+        "distance_to_interface_nm": null,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/bad/864691135748642601_skeldir_780176",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": null,
+        "is_split_error": false,
+        "nearby_segment_ids": null,
+        "operation_id": null,
+        "segment1_id": null,
+        "segment2_id": null,
+        "segment_id": "864691135748642601",
+        "skeleton_idx": 1506,
+        "source": "skeleton_direction",
+        "use_interface_center": null,
+        "vertex_idx": 780176.0
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": false
+    },
+    {
+      "sample_idx": 11,
+      "parquet_idx": 758,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": true,
+      "ground_truth": false,
+      "correct": false,
+      "response_time_seconds": 16.214427,
+      "timestamp": "2026-01-28T20:53:35.862208",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/758_0_endpoint_4470445_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/758_1_endpoint_4470445_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/758_2_endpoint_4470445_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/758_3_endpoint_4470445_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/758_4_endpoint_4470445_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/758_5_endpoint_4470445_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": null,
+        "coord_nm": [
+          792897.0,
+          597786.0,
+          825951.0
+        ],
+        "distance_to_interface_nm": null,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/bad/864691135748642601_skeldir_4470445",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": null,
+        "is_split_error": false,
+        "nearby_segment_ids": null,
+        "operation_id": null,
+        "segment1_id": null,
+        "segment2_id": null,
+        "segment_id": "864691135748642601",
+        "skeleton_idx": 8551,
+        "source": "skeleton_direction",
+        "use_interface_center": null,
+        "vertex_idx": 4470445.0
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": true
+    },
+    {
+      "sample_idx": 12,
+      "parquet_idx": 913,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": true,
+      "ground_truth": false,
+      "correct": false,
+      "response_time_seconds": 10.713525,
+      "timestamp": "2026-01-28T20:53:46.579478",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/913_0_endpoint_2777854_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/913_1_endpoint_2777854_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/913_2_endpoint_2777854_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/913_3_endpoint_2777854_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/913_4_endpoint_2777854_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/913_5_endpoint_2777854_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": null,
+        "coord_nm": [
+          732501.0,
+          705201.0,
+          953169.0
+        ],
+        "distance_to_interface_nm": null,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/bad/864691135748642601_skeldir_2777854",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": null,
+        "is_split_error": false,
+        "nearby_segment_ids": null,
+        "operation_id": null,
+        "segment1_id": null,
+        "segment2_id": null,
+        "segment_id": "864691135748642601",
+        "skeleton_idx": 5207,
+        "source": "skeleton_direction",
+        "use_interface_center": null,
+        "vertex_idx": 2777854.0
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": true
+    },
+    {
+      "sample_idx": 13,
+      "parquet_idx": 558,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": true,
+      "ground_truth": false,
+      "correct": false,
+      "response_time_seconds": 8.141983,
+      "timestamp": "2026-01-28T20:53:54.725419",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/558_0_endpoint_4277564_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/558_1_endpoint_4277564_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/558_2_endpoint_4277564_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/558_3_endpoint_4277564_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/558_4_endpoint_4277564_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/558_5_endpoint_4277564_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": null,
+        "coord_nm": [
+          783615.0,
+          509523.0,
+          866229.0
+        ],
+        "distance_to_interface_nm": null,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/bad/864691135748642601_skeldir_4277564",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": null,
+        "is_split_error": false,
+        "nearby_segment_ids": null,
+        "operation_id": null,
+        "segment1_id": null,
+        "segment2_id": null,
+        "segment_id": "864691135748642601",
+        "skeleton_idx": 8084,
+        "source": "skeleton_direction",
+        "use_interface_center": null,
+        "vertex_idx": 4277564.0
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": false
+    },
+    {
+      "sample_idx": 14,
+      "parquet_idx": 89,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 4.764538,
+      "timestamp": "2026-01-28T20:53:59.493926",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/89_0_endpoint_1105165_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/89_1_endpoint_1105165_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/89_2_endpoint_1105165_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/89_3_endpoint_1105165_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/89_4_endpoint_1105165_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/89_5_endpoint_1105165_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment1",
+        "coord_nm": [
+          1201536.0,
+          884625.0,
+          977319.0
+        ],
+        "distance_to_interface_nm": 301.3254055004324,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691135105293133_skeldir_854309",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          1201669.0,
+          884373.0,
+          977417.0
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691135445535378",
+          "864691135509500169"
+        ],
+        "operation_id": 854309.0,
+        "segment1_id": "864691135105293133",
+        "segment2_id": "864691135454945598",
+        "segment_id": "864691135105293133",
+        "skeleton_idx": 1105165,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": true
+    },
+    {
+      "sample_idx": 15,
+      "parquet_idx": 604,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 8.162076,
+      "timestamp": "2026-01-28T20:54:07.659749",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/604_0_endpoint_532383_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/604_1_endpoint_532383_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/604_2_endpoint_532383_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/604_3_endpoint_532383_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/604_4_endpoint_532383_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/604_5_endpoint_532383_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": null,
+        "coord_nm": [
+          667779.0,
+          761586.0,
+          952245.0
+        ],
+        "distance_to_interface_nm": null,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/bad/864691135748642601_skeldir_532383",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": null,
+        "is_split_error": false,
+        "nearby_segment_ids": null,
+        "operation_id": null,
+        "segment1_id": null,
+        "segment2_id": null,
+        "segment_id": "864691135748642601",
+        "skeleton_idx": 1059,
+        "source": "skeleton_direction",
+        "use_interface_center": null,
+        "vertex_idx": 532383.0
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": false
+    },
+    {
+      "sample_idx": 16,
+      "parquet_idx": 432,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 7.398592,
+      "timestamp": "2026-01-28T20:54:15.060566",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/432_0_endpoint_1455_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/432_1_endpoint_1455_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/432_2_endpoint_1455_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/432_3_endpoint_1455_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/432_4_endpoint_1455_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/432_5_endpoint_1455_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment1",
+        "coord_nm": [
+          699111.0,
+          546021.0,
+          816606.0
+        ],
+        "distance_to_interface_nm": 201.48573150473956,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691135665011767_skeldir_745666",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          698981.5,
+          545867.0,
+          816595.5
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691135338827238",
+          "864691135543861700",
+          "864691135604420460",
+          "864691135685869571",
+          "864691135946995809"
+        ],
+        "operation_id": 745666.0,
+        "segment1_id": "864691135665011767",
+        "segment2_id": "864691134256133051",
+        "segment_id": "864691135665011767",
+        "skeleton_idx": 1455,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": true
+    },
+    {
+      "sample_idx": 17,
+      "parquet_idx": 32,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": false,
+      "ground_truth": true,
+      "correct": false,
+      "response_time_seconds": 21.271864,
+      "timestamp": "2026-01-28T20:54:36.335750",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/32_0_endpoint_8308_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/32_1_endpoint_8308_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/32_2_endpoint_8308_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/32_3_endpoint_8308_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/32_4_endpoint_8308_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/32_5_endpoint_8308_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment1",
+        "coord_nm": [
+          646800.0,
+          521451.0,
+          814128.0
+        ],
+        "distance_to_interface_nm": 108.6128445442803,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691136106577881_skeldir_746653",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          646705.5,
+          521461.5,
+          814180.5
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691135584302712",
+          "864691136101780305"
+        ],
+        "operation_id": 746653.0,
+        "segment1_id": "864691136106577881",
+        "segment2_id": "864691135103342888",
+        "segment_id": "864691136106577881",
+        "skeleton_idx": 8308,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": false
+    },
+    {
+      "sample_idx": 18,
+      "parquet_idx": 30,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 8.475158,
+      "timestamp": "2026-01-28T20:54:44.814127",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/30_0_endpoint_620144_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/30_1_endpoint_620144_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/30_2_endpoint_620144_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/30_3_endpoint_620144_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/30_4_endpoint_620144_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/30_5_endpoint_620144_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment1",
+        "coord_nm": [
+          755937.0,
+          890232.0,
+          997836.0
+        ],
+        "distance_to_interface_nm": 121.54628747929736,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691135512266704_skeldir_1602328",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          755905.5,
+          890347.5,
+          997815.0
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691135441551090",
+          "864691135467227122",
+          "864691135486750450",
+          "864691135777724727",
+          "864691136292923692",
+          "864691136687844462",
+          "864691136849058670"
+        ],
+        "operation_id": 1602328.0,
+        "segment1_id": "864691135512266704",
+        "segment2_id": "864691135569898988",
+        "segment_id": "864691135512266704",
+        "skeleton_idx": 620144,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": true
+    },
+    {
+      "sample_idx": 19,
+      "parquet_idx": 95,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 22.640673,
+      "timestamp": "2026-01-28T20:55:07.459479",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/95_0_endpoint_14384_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/95_1_endpoint_14384_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/95_2_endpoint_14384_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/95_3_endpoint_14384_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/95_4_endpoint_14384_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/95_5_endpoint_14384_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment2",
+        "coord_nm": [
+          835359.0,
+          824103.0,
+          843465.0
+        ],
+        "distance_to_interface_nm": 93.91485505499116,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691135442600008_skeldir_1769270",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          835443.0,
+          824103.0,
+          843507.0
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691135271877285",
+          "864691135364747074",
+          "864691135698161818",
+          "864691135955691016",
+          "864691136330958314"
+        ],
+        "operation_id": 1769270.0,
+        "segment1_id": "864691135732261561",
+        "segment2_id": "864691135442600008",
+        "segment_id": "864691135442600008",
+        "skeleton_idx": 14384,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": true
+    },
+    {
+      "sample_idx": 20,
+      "parquet_idx": 223,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 8.481244,
+      "timestamp": "2026-01-28T20:55:15.944035",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/223_0_endpoint_31469_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/223_1_endpoint_31469_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/223_2_endpoint_31469_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/223_3_endpoint_31469_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/223_4_endpoint_31469_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/223_5_endpoint_31469_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment2",
+        "coord_nm": [
+          680295.0,
+          650811.0,
+          867699.0
+        ],
+        "distance_to_interface_nm": 3044.2214521943047,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691135774413676_skeldir_278048",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          679875.0,
+          649509.0,
+          864979.5
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691135725696063"
+        ],
+        "operation_id": 278048.0,
+        "segment1_id": "864691135658147714",
+        "segment2_id": "864691135774413676",
+        "segment_id": "864691135774413676",
+        "skeleton_idx": 31469,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": false
+    },
+    {
+      "sample_idx": 21,
+      "parquet_idx": 238,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 13.532951,
+      "timestamp": "2026-01-28T20:55:29.479790",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/238_0_endpoint_0_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/238_1_endpoint_0_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/238_2_endpoint_0_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/238_3_endpoint_0_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/238_4_endpoint_0_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/238_5_endpoint_0_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment1",
+        "coord_nm": [
+          1039815.0,
+          561960.0,
+          786366.0
+        ],
+        "distance_to_interface_nm": 140.28408676681758,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691135527303003_skeldir_1006518",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          1039883.25,
+          562044.0,
+          786276.75
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691135217306562",
+          "864691136085065324"
+        ],
+        "operation_id": 1006518.0,
+        "segment1_id": "864691135527303003",
+        "segment2_id": "864691136287707075",
+        "segment_id": "864691135527303003",
+        "skeleton_idx": 0,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": true
+    },
+    {
+      "sample_idx": 22,
+      "parquet_idx": 517,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 16.371994,
+      "timestamp": "2026-01-28T20:55:45.856736",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/517_0_endpoint_634069_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/517_1_endpoint_634069_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/517_2_endpoint_634069_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/517_3_endpoint_634069_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/517_4_endpoint_634069_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/517_5_endpoint_634069_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": null,
+        "coord_nm": [
+          781473.0,
+          664314.0,
+          881349.0
+        ],
+        "distance_to_interface_nm": null,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/bad/864691136195625192_skeldir_634069",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": null,
+        "is_split_error": false,
+        "nearby_segment_ids": null,
+        "operation_id": null,
+        "segment1_id": null,
+        "segment2_id": null,
+        "segment_id": "864691136195625192",
+        "skeleton_idx": 2129,
+        "source": "skeleton_direction",
+        "use_interface_center": null,
+        "vertex_idx": 634069.0
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": false
+    },
+    {
+      "sample_idx": 23,
+      "parquet_idx": 616,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": true,
+      "ground_truth": false,
+      "correct": false,
+      "response_time_seconds": 4.965869,
+      "timestamp": "2026-01-28T20:55:50.825924",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/616_0_endpoint_658821_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/616_1_endpoint_658821_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/616_2_endpoint_658821_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/616_3_endpoint_658821_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/616_4_endpoint_658821_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/616_5_endpoint_658821_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": null,
+        "coord_nm": [
+          793989.0,
+          759780.0,
+          882042.0
+        ],
+        "distance_to_interface_nm": null,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/bad/864691136195625192_skeldir_658821",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": null,
+        "is_split_error": false,
+        "nearby_segment_ids": null,
+        "operation_id": null,
+        "segment1_id": null,
+        "segment2_id": null,
+        "segment_id": "864691136195625192",
+        "skeleton_idx": 2217,
+        "source": "skeleton_direction",
+        "use_interface_center": null,
+        "vertex_idx": 658821.0
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": true
+    },
+    {
+      "sample_idx": 24,
+      "parquet_idx": 27,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 9.96831,
+      "timestamp": "2026-01-28T20:56:00.797701",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/27_0_endpoint_14817_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/27_1_endpoint_14817_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/27_2_endpoint_14817_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/27_3_endpoint_14817_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/27_4_endpoint_14817_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/27_5_endpoint_14817_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment2",
+        "coord_nm": [
+          658098.0,
+          671664.0,
+          825216.0
+        ],
+        "distance_to_interface_nm": 122.4499897917513,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691136444287107_skeldir_436092",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          657993.0,
+          671727.0,
+          825216.0
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691135888682121",
+          "864691135937835573"
+        ],
+        "operation_id": 436092.0,
+        "segment1_id": "864691136925962314",
+        "segment2_id": "864691136444287107",
+        "segment_id": "864691136444287107",
+        "skeleton_idx": 14817,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": true
+    },
+    {
+      "sample_idx": 25,
+      "parquet_idx": 574,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 5.590063,
+      "timestamp": "2026-01-28T20:56:06.390673",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/574_0_endpoint_1417080_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/574_1_endpoint_1417080_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/574_2_endpoint_1417080_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/574_3_endpoint_1417080_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/574_4_endpoint_1417080_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/574_5_endpoint_1417080_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": null,
+        "coord_nm": [
+          705999.0,
+          517944.0,
+          997059.0
+        ],
+        "distance_to_interface_nm": null,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/bad/864691135748642601_skeldir_1417080",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": null,
+        "is_split_error": false,
+        "nearby_segment_ids": null,
+        "operation_id": null,
+        "segment1_id": null,
+        "segment2_id": null,
+        "segment_id": "864691135748642601",
+        "skeleton_idx": 2735,
+        "source": "skeleton_direction",
+        "use_interface_center": null,
+        "vertex_idx": 1417080.0
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": false
+    },
+    {
+      "sample_idx": 26,
+      "parquet_idx": 203,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 6.730944,
+      "timestamp": "2026-01-28T20:56:13.125332",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/203_0_endpoint_31_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/203_1_endpoint_31_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/203_2_endpoint_31_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/203_3_endpoint_31_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/203_4_endpoint_31_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/203_5_endpoint_31_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment2",
+        "coord_nm": [
+          643209.0,
+          715386.0,
+          760326.0
+        ],
+        "distance_to_interface_nm": 46.95742752749558,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691135339418598_skeldir_1340256",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          643209.0,
+          715344.0,
+          760305.0
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691135276855473",
+          "864691135416744378",
+          "864691135453549967",
+          "864691135539317106"
+        ],
+        "operation_id": 1340256.0,
+        "segment1_id": "864691135384060378",
+        "segment2_id": "864691135339418598",
+        "segment_id": "864691135339418598",
+        "skeleton_idx": 31,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": true
+    },
+    {
+      "sample_idx": 27,
+      "parquet_idx": 733,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 4.844278,
+      "timestamp": "2026-01-28T20:56:17.973757",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/733_0_endpoint_19205_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/733_1_endpoint_19205_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/733_2_endpoint_19205_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/733_3_endpoint_19205_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/733_4_endpoint_19205_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/733_5_endpoint_19205_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": null,
+        "coord_nm": [
+          576408.0,
+          716562.0,
+          761418.0
+        ],
+        "distance_to_interface_nm": null,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/bad/864691135989724928_skeldir_19205",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": null,
+        "is_split_error": false,
+        "nearby_segment_ids": null,
+        "operation_id": null,
+        "segment1_id": null,
+        "segment2_id": null,
+        "segment_id": "864691135989724928",
+        "skeleton_idx": 25,
+        "source": "skeleton_direction",
+        "use_interface_center": null,
+        "vertex_idx": 19205.0
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": false
+    },
+    {
+      "sample_idx": 28,
+      "parquet_idx": 665,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 7.729734,
+      "timestamp": "2026-01-28T20:56:25.707200",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/665_0_endpoint_2058_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/665_1_endpoint_2058_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/665_2_endpoint_2058_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/665_3_endpoint_2058_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/665_4_endpoint_2058_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/665_5_endpoint_2058_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": null,
+        "coord_nm": [
+          660072.0,
+          725382.0,
+          864129.0
+        ],
+        "distance_to_interface_nm": null,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/bad/864691136389898615_skeldir_2058",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": null,
+        "is_split_error": false,
+        "nearby_segment_ids": null,
+        "operation_id": null,
+        "segment1_id": null,
+        "segment2_id": null,
+        "segment_id": "864691136389898615",
+        "skeleton_idx": 4,
+        "source": "skeleton_direction",
+        "use_interface_center": null,
+        "vertex_idx": 2058.0
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": false
+    },
+    {
+      "sample_idx": 29,
+      "parquet_idx": 718,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": true,
+      "ground_truth": false,
+      "correct": false,
+      "response_time_seconds": 9.127139,
+      "timestamp": "2026-01-28T20:56:34.838296",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/718_0_endpoint_56951_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/718_1_endpoint_56951_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/718_2_endpoint_56951_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/718_3_endpoint_56951_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/718_4_endpoint_56951_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/718_5_endpoint_56951_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": null,
+        "coord_nm": [
+          607026.0,
+          420672.0,
+          955080.0
+        ],
+        "distance_to_interface_nm": null,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/bad/864691135748642601_skeldir_56951",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": null,
+        "is_split_error": false,
+        "nearby_segment_ids": null,
+        "operation_id": null,
+        "segment1_id": null,
+        "segment2_id": null,
+        "segment_id": "864691135748642601",
+        "skeleton_idx": 129,
+        "source": "skeleton_direction",
+        "use_interface_center": null,
+        "vertex_idx": 56951.0
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": false
+    },
+    {
+      "sample_idx": 30,
+      "parquet_idx": 429,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 10.831582,
+      "timestamp": "2026-01-28T20:56:45.674439",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/429_0_endpoint_51566_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/429_1_endpoint_51566_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/429_2_endpoint_51566_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/429_3_endpoint_51566_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/429_4_endpoint_51566_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/429_5_endpoint_51566_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment1",
+        "coord_nm": [
+          803250.0,
+          988680.0,
+          791385.0
+        ],
+        "distance_to_interface_nm": 84.65370635713477,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691135211951296_skeldir_1552356",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          803208.0,
+          988606.5,
+          791385.0
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691134959417137",
+          "864691135473865970",
+          "864691135474019826",
+          "864691135875272590",
+          "864691136838668398",
+          "864691137055658358"
+        ],
+        "operation_id": 1552356.0,
+        "segment1_id": "864691135211951296",
+        "segment2_id": "864691135258118575",
+        "segment_id": "864691135211951296",
+        "skeleton_idx": 51566,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": true
+    },
+    {
+      "sample_idx": 31,
+      "parquet_idx": 225,
+      "user_id": "anonymous",
+      "task_name": "endpoint_error_identification_with_em",
+      "human_answer": false,
+      "ground_truth": true,
+      "correct": false,
+      "response_time_seconds": 13.519514,
+      "timestamp": "2026-01-28T20:56:59.199467",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/225_0_endpoint_1_5000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/225_1_endpoint_1_5000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/225_2_endpoint_1_5000nm_top.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/225_3_endpoint_1_em_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/225_4_endpoint_1_em_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/endpoints-with-em-parquet/images/225_5_endpoint_1_em_top.png"
+      ],
+      "metadata": {
+        "canvas_size_px": [
+          512,
+          512
+        ],
+        "chosen_segment": "segment2",
+        "coord_nm": [
+          1335642.0,
+          565761.0,
+          652113.0
+        ],
+        "distance_to_interface_nm": 6654.031388763976,
+        "endpoint_dir": "output/endpoint_from_merge_with_EM_skeldir/good/864691135584912931_skeldir_863256",
+        "extent_nm": 5000.0,
+        "has_em_images": true,
+        "interface_point_nm": [
+          1338099.0,
+          567340.1875,
+          658091.75
+        ],
+        "is_split_error": true,
+        "nearby_segment_ids": [
+          "864691136547632034",
+          "864691136593725602"
+        ],
+        "operation_id": 863256.0,
+        "segment1_id": "864691135273502993",
+        "segment2_id": "864691135584912931",
+        "segment_id": "864691135584912931",
+        "skeleton_idx": 1,
+        "source": "merge_corrections",
+        "use_interface_center": false,
+        "vertex_idx": null
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim": false
+    }
+  ],
+  "tim": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "accuracy_se": 0.08748324477412571,
+  "tim_accuracy": 0.6774193548387096,
+  "tim_accuracy_se": 0.08395897088010118,
+  "tim_num_correct": 21,
+  "tim_num_samples": 31
+}

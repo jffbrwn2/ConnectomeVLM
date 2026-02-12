@@ -1,0 +1,11 @@
+{
+  "checkpoint": "resnet50_resnet50_merge_action_test_small",
+  "task": "merge_action",
+  "dataset_path": null,
+  "use_test_set": true,
+  "timestamp": "20260128_013523",
+  "accuracy": 0.718322774258086,
+  "balanced_accuracy": 0.5,
+  "correct": 8617,
+  "total": 11996
+}

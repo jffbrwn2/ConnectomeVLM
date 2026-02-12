@@ -1,0 +1,106 @@
+{
+  "model": "google/siglip2-so400m-patch16-512",
+  "task": "merge_error_identification",
+  "num_samples": 512,
+  "train_samples": 409,
+  "val_samples": 103,
+  "eval_samples": null,
+  "feature_dim": 1152,
+  "pooling": "mean",
+  "classifier_type": "linear",
+  "train_accuracy": 0.9290953545232273,
+  "val_accuracy": 0.6407766990291263,
+  "eval_accuracy": null,
+  "train_tpr": 0.941747572815534,
+  "train_tnr": 0.916256157635468,
+  "train_fpr": 0.08374384236453201,
+  "train_fnr": 0.05825242718446602,
+  "val_tpr": 0.5555555555555556,
+  "val_tnr": 0.7346938775510204,
+  "val_fpr": 0.2653061224489796,
+  "val_fnr": 0.4444444444444444,
+  "class_distribution": {
+    "1": 260,
+    "0": 252
+  },
+  "timestamp": "2026-01-21T16:08:57.921305",
+  "loaded_from_weights": false,
+  "weights_loaded_from": null,
+  "dataset_path": null,
+  "dataset_slug": "merge-error-identification-parquet",
+  "cross_validation": {
+    "cv_accuracy_mean": 0.7166952217780316,
+    "cv_accuracy_std": 0.03412139195658208,
+    "cv_accuracy_folds": [
+      0.7572815533980582,
+      0.7281553398058253,
+      0.7352941176470589,
+      0.6568627450980392,
+      0.7058823529411765
+    ],
+    "cv_precision_mean": 0.7366137007646442,
+    "cv_precision_std": 0.047806694619186595,
+    "cv_precision_folds": [
+      0.8,
+      0.7307692307692307,
+      0.7358490566037735,
+      0.6545454545454545,
+      0.7619047619047619
+    ],
+    "cv_recall_mean": 0.6961538461538461,
+    "cv_recall_std": 0.046153846153846136,
+    "cv_recall_folds": [
+      0.6923076923076923,
+      0.7307692307692307,
+      0.75,
+      0.6923076923076923,
+      0.6153846153846154
+    ],
+    "cv_f1_mean": 0.7139285349909914,
+    "cv_f1_std": 0.030663629458961186,
+    "cv_f1_folds": [
+      0.7422680412371134,
+      0.7307692307692307,
+      0.7428571428571429,
+      0.6728971962616822,
+      0.6808510638297872
+    ],
+    "cv_tpr_mean": 0.6961538461538461,
+    "cv_tpr_std": 0.046153846153846136,
+    "cv_tpr_folds": [
+      0.6923076923076923,
+      0.7307692307692307,
+      0.75,
+      0.6923076923076923,
+      0.6153846153846154
+    ],
+    "cv_tnr_mean": 0.7378039215686274,
+    "cv_tnr_std": 0.07150326319436962,
+    "cv_tnr_folds": [
+      0.8235294117647058,
+      0.7254901960784313,
+      0.72,
+      0.62,
+      0.8
+    ],
+    "cv_fpr_mean": 0.26219607843137255,
+    "cv_fpr_std": 0.07150326319436962,
+    "cv_fpr_folds": [
+      0.17647058823529413,
+      0.27450980392156865,
+      0.28,
+      0.38,
+      0.2
+    ],
+    "cv_fnr_mean": 0.3038461538461538,
+    "cv_fnr_std": 0.04615384615384617,
+    "cv_fnr_folds": [
+      0.3076923076923077,
+      0.2692307692307692,
+      0.25,
+      0.3076923076923077,
+      0.38461538461538464
+    ]
+  },
+  "probe_weights_path": "/results/probe_weights/google_siglip2-so400m-patch16-512_merge_error_identification_merge-error-identification-parquet_linear_mean.npz"
+}

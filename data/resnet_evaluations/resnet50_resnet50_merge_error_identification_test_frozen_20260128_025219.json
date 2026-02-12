@@ -1,0 +1,11 @@
+{
+  "checkpoint": "resnet50_resnet50_merge_error_identification_test_frozen",
+  "task": "merge_error_identification",
+  "dataset_path": null,
+  "use_test_set": true,
+  "timestamp": "20260128_025219",
+  "accuracy": 0.681640625,
+  "balanced_accuracy": 0.6600640474888698,
+  "correct": 698,
+  "total": 1024
+}

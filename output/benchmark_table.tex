@@ -1,0 +1,22 @@
+\begin{table}[t]
+\caption{Proofreading benchmark results showing balanced accuracy (\%) $\pm$ error on four tasks. Bold indicates best model per task. Human: standard error; Linear Probe (SigLIP-2): 5-fold CV standard deviation; ResNet-50 Finetuned, VLM (Qwen3-VL-32B), GPT-5, Gemini-3-Pro: bootstrap (1000 iter.). All results on MICrONS mouse cortex test sets.}
+\label{tab:benchmark}
+\vskip 0.15in
+\begin{center}
+\begin{small}
+\begin{sc}
+\begin{tabular}{lcccccc}
+\toprule
+Task & Human & Linear Probe & ResNet-50 Finetuned & VLM & GPT-5 & Gemini-3-Pro \\
+\midrule
+Split Error Correction & 92.3$\pm$5.0 & \textbf{97.2$\pm$3.4} & 96.1$\pm$2.1 & 93.8$\pm$2.0 & 87.5$\pm$2.8 & 93.0$\pm$2.2 \\
+Split Error Identification & 61.3$\pm$8.9 & 72.2$\pm$1.6 & 67.0$\pm$3.5 & \textbf{83.6$\pm$3.2} & 57.0$\pm$3.4 & 52.3$\pm$2.9 \\
+Merge Error Identification & 73.9$\pm$8.3 & 64.5$\pm$4.3 & 79.2$\pm$3.3 & \textbf{81.2$\pm$3.5} & 58.6$\pm$3.6 & 68.8$\pm$3.8 \\
+Split Action Evaluation & 78.3$\pm$6.7 & 60.4$\pm$4.4 & \textbf{91.6$\pm$3.4} & 71.1$\pm$3.6 & 62.5$\pm$4.3 & 56.2$\pm$3.8 \\
+\bottomrule
+\end{tabular}
+\end{sc}
+\end{small}
+\end{center}
+\vskip -0.1in
+\end{table}

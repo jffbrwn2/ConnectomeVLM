@@ -1,0 +1,11 @@
+{
+  "checkpoint": "resnet50_resnet50_endpoint_em_test",
+  "task": "endpoint_error_identification_with_em",
+  "dataset_path": null,
+  "use_test_set": true,
+  "timestamp": "20260128_005547",
+  "accuracy": 0.7105831533477321,
+  "balanced_accuracy": 0.7108430362740707,
+  "correct": 329,
+  "total": 463
+}

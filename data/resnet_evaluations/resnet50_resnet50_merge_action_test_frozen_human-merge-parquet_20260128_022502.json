@@ -1,0 +1,11 @@
+{
+  "checkpoint": "resnet50_resnet50_merge_action_test_frozen",
+  "task": "merge_action",
+  "dataset_path": "human-merge-parquet",
+  "use_test_set": false,
+  "timestamp": "20260128_022502",
+  "accuracy": 0.5875,
+  "balanced_accuracy": 0.6034598458129156,
+  "correct": 423,
+  "total": 720
+}

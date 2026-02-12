@@ -1,0 +1,854 @@
+{
+  "per_file_results": [
+    {
+      "task_name": "endpoint_error_identification_with_em",
+      "species": "mouse",
+      "file": "eval_endpoint_error_identification_with_em_endpoint_error_identification_with_em_finetune_Qwen3-VL-32B-Instruct_endpoint_identification_EM_lora_merger_big_20260126_012931_samplesall_epochs3_lr8e-05_r16_merged_test_votes25_20260128_222232.json",
+      "original": {
+        "ece": 0.18055642388246318,
+        "mce": 0.20300309597523214,
+        "brier_score": 0.4145979993748046,
+        "accuracy": 0.6980306345733042,
+        "n_samples": 3199,
+        "bin_accuracies": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.573170731707317,
+          0.6572668112798264,
+          0.6712074303405573,
+          0.7675312199807877
+        ],
+        "bin_confidences": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.7000000000000002,
+          0.7637744034707159,
+          0.8742105263157894,
+          0.9502881844380401
+        ],
+        "bin_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          82,
+          461,
+          1615,
+          1041
+        ]
+      }
+    },
+    {
+      "task_name": "endpoint_error_identification_with_em",
+      "species": "zebrafish",
+      "file": "eval_endpoint_error_identification_with_em_endpoint_error_identification_with_em_finetune_Qwen3-VL-32B-Instruct_endpoint_identification_EM_lora_merger_big_20260126_012931_samplesall_epochs3_lr8e-05_r16_merged_votes25_20260128_232258.json",
+      "original": {
+        "ece": 0.282439024390244,
+        "mce": 0.31285714285714317,
+        "brier_score": 0.4108312070043777,
+        "accuracy": 0.600375234521576,
+        "n_samples": 3198,
+        "bin_accuracies": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.5679012345679012,
+          0.5943152454780362,
+          0.5787545787545788,
+          0.6373626373626373
+        ],
+        "bin_confidences": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.6993827160493827,
+          0.7631782945736435,
+          0.8752136752136752,
+          0.9502197802197805
+        ],
+        "bin_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          81,
+          387,
+          1638,
+          1092
+        ]
+      }
+    },
+    {
+      "task_name": "endpoint_error_identification_with_em",
+      "species": "human",
+      "file": "eval_endpoint_error_identification_with_em_endpoint_error_identification_with_em_finetune_Qwen3-VL-32B-Instruct_endpoint_identification_EM_lora_merger_big_20260126_012931_samplesall_epochs3_lr8e-05_r16_merged_votes25_20260128_232709.json",
+      "original": {
+        "ece": 0.3151891216005002,
+        "mce": 0.5,
+        "brier_score": 0.40699928102532035,
+        "accuracy": 0.5658018130665833,
+        "n_samples": 3199,
+        "bin_accuracies": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.6,
+          0.5477855477855478,
+          0.5497481108312342,
+          0.5930018416206262
+        ],
+        "bin_confidences": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.5,
+          0.0,
+          0.6994736842105267,
+          0.7645687645687644,
+          0.875566750629723,
+          0.9502209944751382
+        ],
+        "bin_counts": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          95,
+          429,
+          1588,
+          1086
+        ]
+      }
+    },
+    {
+      "task_name": "merge_action",
+      "species": "mouse",
+      "file": "eval_merge_action_merge_action_finetune_Qwen3-VL-32B-Instruct_merge_action_lora_merger_20260126_002129_samplesall_epochs3_lr0.0002_r16_merged_test_votes5_20260128_020400.json",
+      "original": {
+        "ece": 0.02924882629107988,
+        "mce": 0.75,
+        "brier_score": 0.4541159624413144,
+        "accuracy": 0.9436619718309859,
+        "n_samples": 639,
+        "bin_accuracies": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.8,
+          0.9753787878787878
+        ],
+        "bin_confidences": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.75,
+          0.8895454545454548,
+          0.9600568181818181
+        ],
+        "bin_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          110,
+          528
+        ]
+      }
+    },
+    {
+      "task_name": "merge_action",
+      "species": "fly",
+      "file": "eval_merge_action_merge_action_finetune_Qwen3-VL-32B-Instruct_merge_action_lora_merger_20260126_002129_samplesall_epochs3_lr0.0002_r16_merged_votes25_20260128_211911.json",
+      "original": {
+        "ece": 0.1636451814768461,
+        "mce": 0.41538461538461546,
+        "brier_score": 0.4551928347934919,
+        "accuracy": 0.7806633291614519,
+        "n_samples": 3196,
+        "bin_accuracies": [
+          0.0,
+          0.0,
+          0.0,
+          0.4,
+          0.0,
+          0.2,
+          0.6,
+          0.34615384615384615,
+          0.5391923990498813,
+          0.8251928020565553
+        ],
+        "bin_confidences": [
+          0.0,
+          0.0,
+          0.25,
+          0.4,
+          0.0,
+          0.6,
+          0.6866666666666666,
+          0.7615384615384616,
+          0.8896674584323042,
+          0.9578075651854573
+        ],
+        "bin_counts": [
+          0,
+          0,
+          1,
+          5,
+          0,
+          5,
+          15,
+          26,
+          421,
+          2723
+        ]
+      }
+    },
+    {
+      "task_name": "merge_action",
+      "species": "zebrafish",
+      "file": "eval_merge_action_merge_action_finetune_Qwen3-VL-32B-Instruct_merge_action_lora_merger_20260126_002129_samplesall_epochs3_lr0.0002_r16_merged_votes25_20260128_211952.json",
+      "original": {
+        "ece": 0.1436170212765957,
+        "mce": 0.52375,
+        "brier_score": 0.44500826032540675,
+        "accuracy": 0.7981852315394243,
+        "n_samples": 3196,
+        "bin_accuracies": [
+          0.0,
+          0.0,
+          0.0,
+          0.3333333333333333,
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.25,
+          0.6696269982238011,
+          0.8321139776665383
+        ],
+        "bin_confidences": [
+          0.0,
+          0.0,
+          0.0,
+          0.4000000000000001,
+          0.0,
+          0.6,
+          0.685,
+          0.77375,
+          0.8894316163410302,
+          0.9565729688101655
+        ],
+        "bin_counts": [
+          0,
+          0,
+          0,
+          3,
+          0,
+          6,
+          10,
+          16,
+          563,
+          2597
+        ]
+      }
+    },
+    {
+      "task_name": "merge_action",
+      "species": "human",
+      "file": "eval_merge_action_merge_action_finetune_Qwen3-VL-32B-Instruct_merge_action_lora_merger_20260126_002129_samplesall_epochs3_lr0.0002_r16_merged_votes25_20260128_212123.json",
+      "original": {
+        "ece": 0.11792812499999995,
+        "mce": 0.8,
+        "brier_score": 0.4493846562499999,
+        "accuracy": 0.8271875,
+        "n_samples": 3200,
+        "bin_accuracies": [
+          0.0,
+          1.0,
+          0.0,
+          0.4,
+          0.0,
+          0.8,
+          0.6666666666666666,
+          0.631578947368421,
+          0.638477801268499,
+          0.8636194723151245
+        ],
+        "bin_confidences": [
+          0.0,
+          0.2,
+          0.275,
+          0.4,
+          0.45,
+          0.6,
+          0.6999999999999998,
+          0.7631578947368421,
+          0.8903805496828754,
+          0.9575696767001114
+        ],
+        "bin_counts": [
+          0,
+          1,
+          2,
+          5,
+          1,
+          5,
+          3,
+          19,
+          473,
+          2691
+        ]
+      }
+    },
+    {
+      "task_name": "merge_error_identification",
+      "species": "mouse",
+      "file": "eval_merge_error_identification_merge_error_identification_finetune_Qwen3-VL-32B-Instruct_merge_error_identification_lora_merger_20260122_145540_samplesall_epochs3_lr0.0002_r16_merged_test_votes25_20260128_040051.json",
+      "original": {
+        "ece": 0.15393370856785485,
+        "mce": 0.18439024390243913,
+        "brier_score": 0.4436515322076297,
+        "accuracy": 0.7692307692307693,
+        "n_samples": 3198,
+        "bin_accuracies": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.4146341463414634,
+          0.5420560747663551,
+          0.6868131868131868,
+          0.6969072164948453,
+          0.8164470695138574
+        ],
+        "bin_confidences": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.5990243902439025,
+          0.6915887850467292,
+          0.7837912087912087,
+          0.8775051546391753,
+          0.9735711040436165
+        ],
+        "bin_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          41,
+          107,
+          364,
+          485,
+          2201
+        ]
+      }
+    },
+    {
+      "task_name": "merge_error_identification",
+      "species": "fly",
+      "file": "eval_merge_error_identification_merge_error_identification_finetune_Qwen3-VL-32B-Instruct_merge_error_identification_lora_merger_20260122_145540_samplesall_epochs3_lr0.0002_r16_merged_votes25_20260128_203323.json",
+      "original": {
+        "ece": 0.18303409446355967,
+        "mce": 0.71,
+        "brier_score": 0.019212824522990307,
+        "accuracy": 0.7197372536753206,
+        "n_samples": 3197,
+        "bin_accuracies": [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.5846153846153846,
+          0.6258064516129033,
+          0.7103594080338267,
+          0.6857585139318886,
+          0.7467672413793104
+        ],
+        "bin_confidences": [
+          0.0,
+          0.0,
+          0.29,
+          0.0,
+          0.5,
+          0.6,
+          0.6929032258064517,
+          0.779957716701903,
+          0.8744891640866874,
+          0.9718265086206898
+        ],
+        "bin_counts": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          65,
+          155,
+          473,
+          646,
+          1856
+        ]
+      }
+    },
+    {
+      "task_name": "merge_error_identification",
+      "species": "human",
+      "file": "eval_merge_error_identification_merge_error_identification_finetune_Qwen3-VL-32B-Instruct_merge_error_identification_lora_merger_20260122_145540_samplesall_epochs3_lr0.0002_r16_merged_votes25_20260128_204151.json",
+      "original": {
+        "ece": 0.25847338319401686,
+        "mce": 0.8,
+        "brier_score": 0.01780796304443467,
+        "accuracy": 0.6506819181698196,
+        "n_samples": 2273,
+        "bin_accuracies": [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.5454545454545454,
+          0.6161616161616161,
+          0.7516556291390728,
+          0.680365296803653,
+          0.6246397694524496
+        ],
+        "bin_confidences": [
+          0.0,
+          0.2,
+          0.0,
+          0.0,
+          0.45,
+          0.5990909090909092,
+          0.6949494949494951,
+          0.7792715231788079,
+          0.8764383561643836,
+          0.9717435158501443
+        ],
+        "bin_counts": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          44,
+          99,
+          302,
+          438,
+          1388
+        ]
+      }
+    },
+    {
+      "task_name": "merge_error_identification",
+      "species": "zebrafish",
+      "file": "eval_merge_error_identification_merge_error_identification_finetune_Qwen3-VL-32B-Instruct_merge_error_identification_lora_merger_20260122_145540_samplesall_epochs3_lr0.0002_r16_merged_votes25_20260128_210244.json",
+      "original": {
+        "ece": 0.26957090909090914,
+        "mce": 0.8,
+        "brier_score": 0.021550981818181818,
+        "accuracy": 0.6290909090909091,
+        "n_samples": 1375,
+        "bin_accuracies": [
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.5,
+          0.5,
+          0.5625,
+          0.6634615384615384,
+          0.6431095406360424,
+          0.6263020833333334
+        ],
+        "bin_confidences": [
+          0.0,
+          0.2,
+          0.0,
+          0.4,
+          0.485,
+          0.5987499999999999,
+          0.6945000000000001,
+          0.7813461538461539,
+          0.8743462897526502,
+          0.9720703125000001
+        ],
+        "bin_counts": [
+          0,
+          1,
+          0,
+          1,
+          2,
+          32,
+          80,
+          208,
+          283,
+          768
+        ]
+      }
+    },
+    {
+      "task_name": "split_action",
+      "species": "mouse",
+      "file": "eval_split_action_Qwen3-VL-32B-Instruct_split_action_32B_r32_longer_patience_checkpoint-900_merged_test_votes25_20260128_214153.json",
+      "original": {
+        "ece": 0.22613004063769937,
+        "mce": 0.8,
+        "brier_score": 0.31002066270709594,
+        "accuracy": 0.7120975304782745,
+        "n_samples": 3199,
+        "bin_accuracies": [
+          0.0,
+          1.0,
+          0.6956521739130435,
+          0.6,
+          0.7727272727272727,
+          0.6875,
+          0.6363636363636364,
+          0.6009615384615384,
+          0.6149425287356322,
+          0.6876876876876877
+        ],
+        "bin_confidences": [
+          0.0,
+          0.2,
+          0.2652173913043478,
+          0.4,
+          0.47181818181818186,
+          0.5875,
+          0.6693636363636365,
+          0.7676442307692308,
+          0.8632758620689657,
+          0.9741491491491493
+        ],
+        "bin_counts": [
+          0,
+          9,
+          23,
+          5,
+          22,
+          16,
+          110,
+          208,
+          348,
+          1998
+        ]
+      }
+    },
+    {
+      "task_name": "split_action",
+      "species": "fly",
+      "file": "eval_split_action_Qwen3-VL-32B-Instruct_split_action_32B_r32_longer_patience_checkpoint-900_merged_votes25_20260128_213316.json",
+      "original": {
+        "ece": 0.3364821428571429,
+        "mce": 0.5177777777777778,
+        "brier_score": 0.41423225,
+        "accuracy": 0.5525,
+        "n_samples": 2800,
+        "bin_accuracies": [
+          0.0,
+          0.6666666666666666,
+          0.7777777777777778,
+          0.5714285714285714,
+          0.3,
+          0.3939393939393939,
+          0.4875,
+          0.4973821989528796,
+          0.5573770491803278,
+          0.5822222222222222
+        ],
+        "bin_confidences": [
+          0.0,
+          0.19999999999999998,
+          0.26,
+          0.39857142857142863,
+          0.46799999999999997,
+          0.5992424242424242,
+          0.6753333333333332,
+          0.7699738219895288,
+          0.865922131147541,
+          0.9730666666666667
+        ],
+        "bin_counts": [
+          0,
+          6,
+          9,
+          14,
+          20,
+          66,
+          240,
+          382,
+          488,
+          1575
+        ]
+      }
+    },
+    {
+      "task_name": "split_action",
+      "species": "zebrafish",
+      "file": "eval_split_action_Qwen3-VL-32B-Instruct_split_action_32B_r32_longer_patience_checkpoint-900_merged_votes25_20260128_231103.json",
+      "original": {
+        "ece": 0.2938824632697719,
+        "mce": 0.39133333333333326,
+        "brier_score": 0.3986779306033135,
+        "accuracy": 0.583307283526102,
+        "n_samples": 3199,
+        "bin_accuracies": [
+          0.0,
+          0.25,
+          0.6666666666666666,
+          0.6428571428571429,
+          0.5172413793103449,
+          0.4948453608247423,
+          0.5901639344262295,
+          0.5592233009708738,
+          0.5443686006825939,
+          0.6094420600858369
+        ],
+        "bin_confidences": [
+          0.0,
+          0.2,
+          0.2753333333333334,
+          0.4000000000000001,
+          0.47517241379310354,
+          0.5996907216494844,
+          0.6763278688524591,
+          0.7712038834951456,
+          0.8697952218430035,
+          0.9730962599632129
+        ],
+        "bin_counts": [
+          0,
+          4,
+          15,
+          14,
+          29,
+          97,
+          305,
+          515,
+          586,
+          1631
+        ]
+      }
+    },
+    {
+      "task_name": "split_action",
+      "species": "human",
+      "file": "eval_split_action_Qwen3-VL-32B-Instruct_split_action_32B_r32_longer_patience_checkpoint-900_merged_votes25_20260128_231131.json",
+      "original": {
+        "ece": 0.21618823529411785,
+        "mce": 0.4975,
+        "brier_score": 0.42489529411764704,
+        "accuracy": 0.6847058823529412,
+        "n_samples": 1700,
+        "bin_accuracies": [
+          0.0,
+          0.0,
+          0.75,
+          0.6666666666666666,
+          0.2727272727272727,
+          0.4642857142857143,
+          0.55,
+          0.5720930232558139,
+          0.5954198473282443,
+          0.7569113441372736
+        ],
+        "bin_confidences": [
+          0.0,
+          0.2,
+          0.2525,
+          0.4000000000000001,
+          0.45999999999999996,
+          0.6,
+          0.6761666666666666,
+          0.7693488372093024,
+          0.8679770992366413,
+          0.9753193517635846
+        ],
+        "bin_counts": [
+          0,
+          4,
+          4,
+          3,
+          11,
+          28,
+          120,
+          215,
+          262,
+          1049
+        ]
+      }
+    }
+  ],
+  "aggregated": {
+    "endpoint_error_identification_with_em": {
+      "mouse": {
+        "original": {
+          "ece": 0.18055642388246318,
+          "mce": 0.20300309597523214,
+          "brier_score": 0.4145979993748046,
+          "accuracy": 0.6980306345733042
+        }
+      },
+      "zebrafish": {
+        "original": {
+          "ece": 0.282439024390244,
+          "mce": 0.31285714285714317,
+          "brier_score": 0.4108312070043777,
+          "accuracy": 0.600375234521576
+        }
+      },
+      "human": {
+        "original": {
+          "ece": 0.3151891216005002,
+          "mce": 0.5,
+          "brier_score": 0.40699928102532035,
+          "accuracy": 0.5658018130665833
+        }
+      }
+    },
+    "merge_action": {
+      "mouse": {
+        "original": {
+          "ece": 0.02924882629107988,
+          "mce": 0.75,
+          "brier_score": 0.4541159624413144,
+          "accuracy": 0.9436619718309859
+        }
+      },
+      "fly": {
+        "original": {
+          "ece": 0.1636451814768461,
+          "mce": 0.41538461538461546,
+          "brier_score": 0.4551928347934919,
+          "accuracy": 0.7806633291614519
+        }
+      },
+      "zebrafish": {
+        "original": {
+          "ece": 0.1436170212765957,
+          "mce": 0.52375,
+          "brier_score": 0.44500826032540675,
+          "accuracy": 0.7981852315394243
+        }
+      },
+      "human": {
+        "original": {
+          "ece": 0.11792812499999995,
+          "mce": 0.8,
+          "brier_score": 0.4493846562499999,
+          "accuracy": 0.8271875
+        }
+      }
+    },
+    "merge_error_identification": {
+      "mouse": {
+        "original": {
+          "ece": 0.15393370856785485,
+          "mce": 0.18439024390243913,
+          "brier_score": 0.4436515322076297,
+          "accuracy": 0.7692307692307693
+        }
+      },
+      "fly": {
+        "original": {
+          "ece": 0.18303409446355967,
+          "mce": 0.71,
+          "brier_score": 0.019212824522990307,
+          "accuracy": 0.7197372536753206
+        }
+      },
+      "human": {
+        "original": {
+          "ece": 0.25847338319401686,
+          "mce": 0.8,
+          "brier_score": 0.01780796304443467,
+          "accuracy": 0.6506819181698196
+        }
+      },
+      "zebrafish": {
+        "original": {
+          "ece": 0.26957090909090914,
+          "mce": 0.8,
+          "brier_score": 0.021550981818181818,
+          "accuracy": 0.6290909090909091
+        }
+      }
+    },
+    "split_action": {
+      "mouse": {
+        "original": {
+          "ece": 0.22613004063769937,
+          "mce": 0.8,
+          "brier_score": 0.31002066270709594,
+          "accuracy": 0.7120975304782745
+        }
+      },
+      "fly": {
+        "original": {
+          "ece": 0.3364821428571429,
+          "mce": 0.5177777777777778,
+          "brier_score": 0.41423225,
+          "accuracy": 0.5525
+        }
+      },
+      "zebrafish": {
+        "original": {
+          "ece": 0.2938824632697719,
+          "mce": 0.39133333333333326,
+          "brier_score": 0.3986779306033135,
+          "accuracy": 0.583307283526102
+        }
+      },
+      "human": {
+        "original": {
+          "ece": 0.21618823529411785,
+          "mce": 0.4975,
+          "brier_score": 0.42489529411764704,
+          "accuracy": 0.6847058823529412
+        }
+      }
+    }
+  }
+}

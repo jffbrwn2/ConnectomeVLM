@@ -1,0 +1,11 @@
+{
+  "checkpoint": "resnet50_resnet50_merge_error_identification_test",
+  "task": "merge_error_identification",
+  "dataset_path": "species_generalization_parquets/fly_merge_7500nm_parquet",
+  "use_test_set": false,
+  "timestamp": "20260128_104743",
+  "accuracy": 0.53125,
+  "balanced_accuracy": 0.53125,
+  "correct": 34,
+  "total": 64
+}

@@ -1,0 +1,11 @@
+{
+  "checkpoint": "resnet50_resnet50_split_action_test",
+  "task": "split_action",
+  "dataset_path": "split_generalization_parquets/fish-jan24",
+  "use_test_set": false,
+  "timestamp": "20260128_024021",
+  "accuracy": 0.801829268292683,
+  "balanced_accuracy": 0.5302099334357399,
+  "correct": 263,
+  "total": 328
+}

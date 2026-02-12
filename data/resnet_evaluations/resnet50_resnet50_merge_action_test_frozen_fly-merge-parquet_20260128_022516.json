@@ -1,0 +1,11 @@
+{
+  "checkpoint": "resnet50_resnet50_merge_action_test_frozen",
+  "task": "merge_action",
+  "dataset_path": "fly-merge-parquet",
+  "use_test_set": false,
+  "timestamp": "20260128_022516",
+  "accuracy": 0.6084142394822006,
+  "balanced_accuracy": 0.6483232743964638,
+  "correct": 376,
+  "total": 618
+}

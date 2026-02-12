@@ -1,0 +1,1011 @@
+{
+  "user_id": "anonymous",
+  "task_name": "split-correction-evaluation",
+  "session_id": "ef37eba8df98",
+  "start_time": "2026-01-22T14:56:36.210159",
+  "end_time": "2026-01-22T15:03:52.880557",
+  "num_samples": 32,
+  "num_correct": 24,
+  "accuracy": 0.75,
+  "responses": [
+    {
+      "sample_idx": 0,
+      "parquet_idx": 7445,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 85.675183,
+      "timestamp": "2026-01-22T14:58:01.889524",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/7445_0_13089652855725403879_split_13089652855725403879_False_6000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/7445_1_13089652855725403879_split_13089652855725403879_False_6000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/7445_2_13089652855725403879_split_13089652855725403879_False_6000nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          664392.0,
+          994080.0,
+          870640.0
+        ],
+        "root_id": "864691135772069195",
+        "species": "mouse",
+        "split_hash": "13089652855725403879"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 1,
+      "parquet_idx": 1593,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 32.087699,
+      "timestamp": "2026-01-22T14:58:33.983173",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/1593_0_12149926882687383350_split_12149926882687383350_True_6000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/1593_1_12149926882687383350_split_12149926882687383350_True_6000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/1593_2_12149926882687383350_split_12149926882687383350_True_6000nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          770036.0,
+          990892.0,
+          900180.0
+        ],
+        "root_id": "864691135341298629",
+        "species": "mouse",
+        "split_hash": "12149926882687383350"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 2,
+      "parquet_idx": 18794,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": false,
+      "correct": false,
+      "response_time_seconds": 30.092923,
+      "timestamp": "2026-01-22T14:59:04.080814",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/18794_0_2129877092316450483_split_2129877092316450483_False_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/18794_1_2129877092316450483_split_2129877092316450483_False_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/18794_2_2129877092316450483_split_2129877092316450483_False_7500nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          698500.0,
+          397036.0,
+          800480.0
+        ],
+        "root_id": "864691135416252602",
+        "species": "mouse",
+        "split_hash": "2129877092316450483"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 3,
+      "parquet_idx": 16504,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 6.489594,
+      "timestamp": "2026-01-22T14:59:10.573990",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/16504_0_14081081571288077131_split_14081081571288077131_True_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/16504_1_14081081571288077131_split_14081081571288077131_True_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/16504_2_14081081571288077131_split_14081081571288077131_True_7500nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          987732.0,
+          827904.0,
+          1065980.0
+        ],
+        "root_id": "864691135280501153",
+        "species": "mouse",
+        "split_hash": "14081081571288077131"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 4,
+      "parquet_idx": 14919,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 6.497677,
+      "timestamp": "2026-01-22T14:59:17.075680",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/14919_0_13991930040975081589_split_13991930040975081589_False_6000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/14919_1_13991930040975081589_split_13991930040975081589_False_6000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/14919_2_13991930040975081589_split_13991930040975081589_False_6000nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          690904.0,
+          560248.0,
+          860280.0
+        ],
+        "root_id": "864691135059200667",
+        "species": "mouse",
+        "split_hash": "13991930040975081589"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 5,
+      "parquet_idx": 9363,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 8.261978,
+      "timestamp": "2026-01-22T14:59:25.341633",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/9363_0_8397332314317703184_split_8397332314317703184_True_6000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/9363_1_8397332314317703184_split_8397332314317703184_True_6000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/9363_2_8397332314317703184_split_8397332314317703184_True_6000nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          1073552.0,
+          901928.0,
+          785300.0
+        ],
+        "root_id": "864691135927257870",
+        "species": "mouse",
+        "split_hash": "8397332314317703184"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 6,
+      "parquet_idx": 6859,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 11.987663,
+      "timestamp": "2026-01-22T14:59:37.333466",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/6859_0_7709684177000837571_split_7709684177000837571_False_6000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/6859_1_7709684177000837571_split_7709684177000837571_False_6000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/6859_2_7709684177000837571_split_7709684177000837571_False_6000nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          769904.0,
+          455664.0,
+          839480.0
+        ],
+        "root_id": "864691135730618041",
+        "species": "mouse",
+        "split_hash": "7709684177000837571"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 7,
+      "parquet_idx": 5824,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 11.551653,
+      "timestamp": "2026-01-22T14:59:48.889019",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/5824_0_6829659769699580874_split_6829659769699580874_True_6000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/5824_1_6829659769699580874_split_6829659769699580874_True_6000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/5824_2_6829659769699580874_split_6829659769699580874_True_6000nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          701588.0,
+          1029928.0,
+          981720.0
+        ],
+        "root_id": "864691135619537295",
+        "species": "mouse",
+        "split_hash": "6829659769699580874"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 8,
+      "parquet_idx": 29973,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 10.639046,
+      "timestamp": "2026-01-22T14:59:59.532925",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/29973_0_10186381024884628308_split_10186381024884628308_False_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/29973_1_10186381024884628308_split_10186381024884628308_False_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/29973_2_10186381024884628308_split_10186381024884628308_False_7500nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          713536.0,
+          822596.0,
+          844200.0
+        ],
+        "root_id": "864691136025866297",
+        "species": "mouse",
+        "split_hash": "10186381024884628308"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 9,
+      "parquet_idx": 2037,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": false,
+      "correct": false,
+      "response_time_seconds": 15.212632,
+      "timestamp": "2026-01-22T15:00:14.749139",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/2037_0_18247242710488219365_split_18247242710488219365_False_6000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/2037_1_18247242710488219365_split_18247242710488219365_False_6000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/2037_2_18247242710488219365_split_18247242710488219365_False_6000nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          710512.0,
+          875148.0,
+          821820.0
+        ],
+        "root_id": "864691135363784434",
+        "species": "mouse",
+        "split_hash": "18247242710488219365"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 10,
+      "parquet_idx": 1912,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 7.512475,
+      "timestamp": "2026-01-22T15:00:22.266109",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/1912_0_10795465860109438441_split_10795465860109438441_True_6000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/1912_1_10795465860109438441_split_10795465860109438441_True_6000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/1912_2_10795465860109438441_split_10795465860109438441_True_6000nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          988572.0,
+          684128.0,
+          762400.0
+        ],
+        "root_id": "864691135360304984",
+        "species": "mouse",
+        "split_hash": "10795465860109438441"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 11,
+      "parquet_idx": 6327,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 5.750285,
+      "timestamp": "2026-01-22T15:00:28.019978",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/6327_0_4327814658282911225_split_4327814658282911225_False_6000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/6327_1_4327814658282911225_split_4327814658282911225_False_6000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/6327_2_4327814658282911225_split_4327814658282911225_False_6000nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          868624.0,
+          959176.0,
+          854400.0
+        ],
+        "root_id": "864691135698799381",
+        "species": "mouse",
+        "split_hash": "4327814658282911225"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 12,
+      "parquet_idx": 14614,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 5.932161,
+      "timestamp": "2026-01-22T15:00:33.956206",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/14614_0_11978822840201044549_split_11978822840201044549_False_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/14614_1_11978822840201044549_split_11978822840201044549_False_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/14614_2_11978822840201044549_split_11978822840201044549_False_7500nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          654968.0,
+          469304.0,
+          967000.0
+        ],
+        "root_id": "864691134966407967",
+        "species": "mouse",
+        "split_hash": "11978822840201044549"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 13,
+      "parquet_idx": 15601,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 9.389129,
+      "timestamp": "2026-01-22T15:00:43.349565",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/15601_0_12933336023669614744_split_12933336023669614744_True_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/15601_1_12933336023669614744_split_12933336023669614744_True_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/15601_2_12933336023669614744_split_12933336023669614744_True_7500nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          637504.0,
+          673000.0,
+          892500.0
+        ],
+        "root_id": "864691135136798233",
+        "species": "mouse",
+        "split_hash": "12933336023669614744"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 14,
+      "parquet_idx": 1701,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 11.027849,
+      "timestamp": "2026-01-22T15:00:54.380560",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/1701_0_9703839980720653374_split_9703839980720653374_False_6000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/1701_1_9703839980720653374_split_9703839980720653374_False_6000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/1701_2_9703839980720653374_split_9703839980720653374_False_6000nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          749448.0,
+          487304.0,
+          926960.0
+        ],
+        "root_id": "864691135345566367",
+        "species": "mouse",
+        "split_hash": "9703839980720653374"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 15,
+      "parquet_idx": 13276,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 8.617178,
+      "timestamp": "2026-01-22T15:01:03.000634",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/13276_0_13724060490065102574_split_13724060490065102574_True_6000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/13276_1_13724060490065102574_split_13724060490065102574_True_6000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/13276_2_13724060490065102574_split_13724060490065102574_True_6000nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          764696.0,
+          835608.0,
+          778940.0
+        ],
+        "root_id": "864691136596052898",
+        "species": "mouse",
+        "split_hash": "13724060490065102574"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 16,
+      "parquet_idx": 29742,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 4.586592,
+      "timestamp": "2026-01-22T15:01:07.591064",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/29742_0_16069663955301690750_split_16069663955301690750_False_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/29742_1_16069663955301690750_split_16069663955301690750_False_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/29742_2_16069663955301690750_split_16069663955301690750_False_7500nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          1110880.0,
+          516808.0,
+          818320.0
+        ],
+        "root_id": "864691136012748451",
+        "species": "mouse",
+        "split_hash": "16069663955301690750"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 17,
+      "parquet_idx": 14729,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": false,
+      "correct": false,
+      "response_time_seconds": 12.054885,
+      "timestamp": "2026-01-22T15:01:19.650669",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/14729_0_3552618528520995273_split_3552618528520995273_False_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/14729_1_3552618528520995273_split_3552618528520995273_False_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/14729_2_3552618528520995273_split_3552618528520995273_False_7500nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          710452.0,
+          1027300.0,
+          1004200.0
+        ],
+        "root_id": "864691135014139859",
+        "species": "mouse",
+        "split_hash": "3552618528520995273"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 18,
+      "parquet_idx": 32128,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": false,
+      "correct": false,
+      "response_time_seconds": 23.079428,
+      "timestamp": "2026-01-22T15:01:42.733893",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/32128_0_3327705162378476625_split_3327705162378476625_False_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/32128_1_3327705162378476625_split_3327705162378476625_False_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/32128_2_3327705162378476625_split_3327705162378476625_False_7500nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          656308.0,
+          495292.0,
+          830660.0
+        ],
+        "root_id": "864691136227581265",
+        "species": "mouse",
+        "split_hash": "3327705162378476625"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 19,
+      "parquet_idx": 19041,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 11.817439,
+      "timestamp": "2026-01-22T15:01:54.554900",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/19041_0_14562562100575579982_split_14562562100575579982_True_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/19041_1_14562562100575579982_split_14562562100575579982_True_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/19041_2_14562562100575579982_split_14562562100575579982_True_7500nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          704700.0,
+          567396.0,
+          988180.0
+        ],
+        "root_id": "864691135430151728",
+        "species": "mouse",
+        "split_hash": "14562562100575579982"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 20,
+      "parquet_idx": 397,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 8.432077,
+      "timestamp": "2026-01-22T15:02:02.991126",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/397_0_2744474848665187692_split_2744474848665187692_False_6000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/397_1_2744474848665187692_split_2744474848665187692_False_6000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/397_2_2744474848665187692_split_2744474848665187692_False_6000nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          627360.0,
+          843256.0,
+          893400.0
+        ],
+        "root_id": "864691135066182980",
+        "species": "mouse",
+        "split_hash": "2744474848665187692"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 21,
+      "parquet_idx": 10695,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 7.904592,
+      "timestamp": "2026-01-22T15:02:10.900036",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/10695_0_2973578883385292114_split_2973578883385292114_True_6000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/10695_1_2973578883385292114_split_2973578883385292114_True_6000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/10695_2_2973578883385292114_split_2973578883385292114_True_6000nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          1374336.0,
+          917020.0,
+          844140.0
+        ],
+        "root_id": "864691136056562648",
+        "species": "mouse",
+        "split_hash": "2973578883385292114"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 22,
+      "parquet_idx": 30030,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 6.697168,
+      "timestamp": "2026-01-22T15:02:17.601111",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/30030_0_6520036409860914543_split_6520036409860914543_False_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/30030_1_6520036409860914543_split_6520036409860914543_False_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/30030_2_6520036409860914543_split_6520036409860914543_False_7500nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          631000.0,
+          880552.0,
+          919900.0
+        ],
+        "root_id": "864691136026004793",
+        "species": "mouse",
+        "split_hash": "6520036409860914543"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 23,
+      "parquet_idx": 23725,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 5.89407,
+      "timestamp": "2026-01-22T15:02:23.500919",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/23725_0_8204208250615365156_split_8204208250615365156_False_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/23725_1_8204208250615365156_split_8204208250615365156_False_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/23725_2_8204208250615365156_split_8204208250615365156_False_7500nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          826200.0,
+          846616.0,
+          884880.0
+        ],
+        "root_id": "864691135687301856",
+        "species": "mouse",
+        "split_hash": "8204208250615365156"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 24,
+      "parquet_idx": 19013,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": false,
+      "correct": false,
+      "response_time_seconds": 14.710576,
+      "timestamp": "2026-01-22T15:02:38.215534",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/19013_0_11891326860605027280_split_11891326860605027280_False_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/19013_1_11891326860605027280_split_11891326860605027280_False_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/19013_2_11891326860605027280_split_11891326860605027280_False_7500nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          1018492.0,
+          783412.0,
+          764540.0
+        ],
+        "root_id": "864691135430135856",
+        "species": "mouse",
+        "split_hash": "11891326860605027280"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 25,
+      "parquet_idx": 10394,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 9.64099,
+      "timestamp": "2026-01-22T15:02:47.858945",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/10394_0_13472243025350106692_split_13472243025350106692_True_6000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/10394_1_13472243025350106692_split_13472243025350106692_True_6000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/10394_2_13472243025350106692_split_13472243025350106692_True_6000nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          740784.0,
+          501644.0,
+          920120.0
+        ],
+        "root_id": "864691136012166563",
+        "species": "mouse",
+        "split_hash": "13472243025350106692"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 26,
+      "parquet_idx": 14395,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": false,
+      "correct": false,
+      "response_time_seconds": 14.489497,
+      "timestamp": "2026-01-22T15:03:02.350563",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/14395_0_461179747902624032_split_461179747902624032_False_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/14395_1_461179747902624032_split_461179747902624032_False_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/14395_2_461179747902624032_split_461179747902624032_False_7500nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          622780.0,
+          544260.0,
+          913900.0
+        ],
+        "root_id": "864691134940196707",
+        "species": "mouse",
+        "split_hash": "461179747902624032"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    },
+    {
+      "sample_idx": 27,
+      "parquet_idx": 23398,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": true,
+      "correct": true,
+      "response_time_seconds": 7.529553,
+      "timestamp": "2026-01-22T15:03:09.882882",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/23398_0_9018820509777355420_split_9018820509777355420_True_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/23398_1_9018820509777355420_split_9018820509777355420_True_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/23398_2_9018820509777355420_split_9018820509777355420_True_7500nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          802804.0,
+          807644.0,
+          885660.0
+        ],
+        "root_id": "864691135654977730",
+        "species": "mouse",
+        "split_hash": "9018820509777355420"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 28,
+      "parquet_idx": 6844,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": false,
+      "ground_truth": true,
+      "correct": false,
+      "response_time_seconds": 14.878336,
+      "timestamp": "2026-01-22T15:03:24.765088",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/6844_0_4066982498431473988_split_4066982498431473988_True_6000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/6844_1_4066982498431473988_split_4066982498431473988_True_6000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/6844_2_4066982498431473988_split_4066982498431473988_True_6000nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          709972.0,
+          452456.0,
+          963720.0
+        ],
+        "root_id": "864691135730618041",
+        "species": "mouse",
+        "split_hash": "4066982498431473988"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 29,
+      "parquet_idx": 6258,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 9.821841,
+      "timestamp": "2026-01-22T15:03:34.590293",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/6258_0_7166529742713762435_split_7166529742713762435_False_6000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/6258_1_7166529742713762435_split_7166529742713762435_False_6000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/6258_2_7166529742713762435_split_7166529742713762435_False_6000nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          706676.0,
+          509660.0,
+          831880.0
+        ],
+        "root_id": "864691135689326816",
+        "species": "mouse",
+        "split_hash": "7166529742713762435"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 30,
+      "parquet_idx": 26777,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": true,
+      "ground_truth": false,
+      "correct": false,
+      "response_time_seconds": 11.125018,
+      "timestamp": "2026-01-22T15:03:45.717031",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/26777_0_11472067855925623112_split_11472067855925623112_False_7500nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/26777_1_11472067855925623112_split_11472067855925623112_False_7500nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/26777_2_11472067855925623112_split_11472067855925623112_False_7500nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          722792.0,
+          754464.0,
+          803860.0
+        ],
+        "root_id": "864691135842100963",
+        "species": "mouse",
+        "split_hash": "11472067855925623112"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": true
+    },
+    {
+      "sample_idx": 31,
+      "parquet_idx": 6531,
+      "user_id": "anonymous",
+      "task_name": "split-correction-evaluation",
+      "human_answer": false,
+      "ground_truth": false,
+      "correct": true,
+      "response_time_seconds": 7.159282,
+      "timestamp": "2026-01-22T15:03:52.880348",
+      "image_paths": [
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/6531_0_13437238544436769855_split_13437238544436769855_False_6000nm_front.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/6531_1_13437238544436769855_split_13437238544436769855_False_6000nm_side.png",
+        "/Users/jbrown/Documents/boyden_lab/project.nosync/ConnectomeEnv/training_data/splits-parquet/images/6531_2_13437238544436769855_split_13437238544436769855_False_6000nm_top.png"
+      ],
+      "metadata": {
+        "center": [
+          764924.0,
+          1073268.0,
+          1019400.0
+        ],
+        "root_id": "864691135702532731",
+        "species": "mouse",
+        "split_hash": "13437238544436769855"
+      },
+      "model_response": null,
+      "faithfulness_rating": null,
+      "faithfulness_notes": null,
+      "tim_answer": false
+    }
+  ],
+  "tim_responses": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    true,
+    false,
+    false,
+    true,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false
+  ],
+  "tim_accuracy": 0.78125,
+  "tim_num_correct": 25,
+  "human_tim_kappa": 0.21804511278195493,
+  "accuracy_se": 0.07654655446197431,
+  "tim_accuracy_se": 0.07307924583542855
+}
